@@ -1,0 +1,1438 @@
+html {
+  scrollbar-width: none;
+}
+
+body {
+  width: 99.1vw !important;
+
+  font-family: 'Raleway', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Reenie Beanie', cursive;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: #070500;
+}
+
+:root {
+  /* --black: #0c0c0c; */
+  /* background-color: #926335; */
+}
+.Viewport_Border {
+  border-bottom: 1px solid #fffaf3;
+}
+.Viewport_Form {
+  /* background-image: url(images/carlhauser.jpg); */
+  /* background-size: 77vw auto;
+    background-position: -10vw -12vh; */
+  /* background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; */
+  height: 100vh;
+}
+.Viewport_Text {
+  background-image: linear-gradient(
+      180deg,
+      rgba(110, 99, 77, 1) 10%,
+      rgba(87, 63, 35, 0.6) 59%,
+      rgba(20, 14, 35, 0.9) 80%
+    ),
+    url(images/JuJYP.jpg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Viewport_HolderText {
+  /* background-image: 
+  linear-gradient(
+      180deg,
+      rgba(110, 99, 77, 1) 10%,
+      rgba(87, 63, 35, 0.6) 59%,
+      rgba(20, 14, 35, 0.9) 80%
+    ),
+    url(images/JuJYP_I.jpg); */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+/* 
+.Viewport_Image {
+  background-image: url(images/jason.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  opacity: 0.7;
+} */
+.Viewport_Code {
+  background-image: url(images/colourSUn.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 76vh;
+  /* width: 100%; */
+  /* opacity: 0.6 !important; */
+}
+.Viewport_Holder {
+  position: absolute;
+  z-index: 20;
+}
+.Viewport_HolderImage {
+  height: 100vh;
+  width: 100vw;
+}
+.Viewport_HolderSecond {
+  position: absolute;
+
+  /* background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+
+      rgb(243, 247, 222, 0.9) 90%,
+      rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100vw;
+}
+.vieportHolderSCol_F {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: 0vw 0vh;
+  background-repeat: no-repeat;
+}
+.vieportHolderSCol_S {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: -16.6vw 0vh;
+  background-repeat: no-repeat;
+}
+.vieportHolderSCol_T {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: -33vw 0vh;
+  background-repeat: no-repeat;
+}
+.vieportHolderSCol_V {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: -49.8vw 0vh;
+  background-repeat: no-repeat;
+}
+.vieportHolderSCol_Ft {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: -66.5vw 0vh;
+  background-repeat: no-repeat;
+}
+.vieportHolderSCol_Sx {
+  height: 100vh;
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position: -83vw 0vh;
+  background-repeat: no-repeat;
+}
+
+.Viewport_HolderForm {
+  background-size: 100vw auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.Viewport {
+  height: 100vh;
+
+  position: relative;
+  width: 100vw;
+}
+
+.Vieport_Shape {
+  height: 23vh;
+}
+
+.TextProfil {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+  width: 50%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.HeightContent {
+  width: 100vw;
+  height: auto;
+
+  background-color: rgb(243, 247, 222);
+}
+.name {
+  height: 100vh;
+}
+.BackMobileViewPort {
+  background-image: linear-gradient(
+      rgba(194, 182, 112, 0),
+      rgba(168, 124, 68, 0),
+      rgb(243, 247, 222)
+    ),
+    url(images/parallax_PortraitUp.png), url(images/parallax_PortraitDown.png),
+    url(images/brush_parallax.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 200% 50%;
+  background-size: contain;
+  background-color: #f7f5db;
+
+  height: 100vh;
+  z-index: 1;
+}
+#bg-01 {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Profile_Hugo {
+  background-image: linear-gradient(
+      rgba(124, 124, 141, 0.5),
+      rgba(194, 182, 112)
+    ),
+    url(images/hugol_hell_2.jpg);
+  background-size: 73vw auto;
+  background-position: -121vw -219.9vh;
+}
+
+.Profile_Image {
+  background-image: linear-gradient(
+      rgba(168, 124, 68, 0.1),
+      rgba(168, 124, 68, 0.01),
+      rgba(194, 182, 112, 1)
+    ),
+    url(images/Portrait_Hugo_O.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+.Profile {
+  position: relative;
+
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+.Profile_Holder {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .Profile_Text {
+  background-image: linear-gradient(
+      180deg,
+      rgba(243, 247, 222, 1) 5%,
+      rgba(243, 247, 222, 0.9) 25%,
+    
+      rgb(243, 247, 222, 0.9) 80%,
+      rgb(243, 247, 222, 1) 95%
+    ),
+    url(images/JuJYPD.jpg);
+
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+} */
+.Profile_HolderText {
+  /* background-image:
+    url(images/JuJYPD.jpg); */
+
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+}
+.profileTextCol_F {
+  background-image: url(images/JuJYPW.jpg);
+
+  background-size: auto 100vh;
+  background-position: 0vw 0vh;
+  background-repeat: no-repeat;
+
+  height: 20vh;
+}
+.profileTextCol_S {
+  background-image: url(images/JuJYPW.jpg);
+
+  background-size: auto 100vh;
+  background-position: 0vw -20vh;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+.profileTextCol_T {
+  background-image: url(images/JuJYPW.jpg);
+
+  background-size: auto 100vh;
+  background-position: 0vw -40vh;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+.profileTextCol_V {
+  background-image: url(images/JuJYPW.jpg);
+
+  background-size: auto 100vh;
+  background-position: 0vw -60vh;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+.profileTextCol_Ft {
+  background-image: url(images/JuJYPW.jpg);
+
+  background-size: auto 100vh;
+  background-position: 0vw -80vh;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
+.image_large {
+  background-image: url(images/image_part.png);
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+}
+.image_small {
+  opacity: 0.38;
+}
+
+.Projekt_Process {
+  height: 15vh;
+  /* background-color: rgba(194, 182, 112, 1); */
+  background-color: rgb(243, 247, 222);
+}
+.Contact {
+  height: 100vh !important;
+  width: 100vw;
+
+  background-image: linear-gradient(
+      180deg,
+      rgb(243, 247, 222, 1) 5%,
+      rgb(243, 247, 222, 0.92) 15%,
+      rgb(243, 247, 222, 0.7) 30%,
+      /* rgba(51, 35, 87, 0.5) 30%, */ rgba(51, 35, 87, 0.5) 50%,
+      rgba(7, 1, 22, 0.7) 70%,
+      rgba(7, 1, 22, 0.9) 90%,
+      rgba(7, 1, 22, 1) 99%
+    ),
+    url(images/JuJYPDC.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #e7d3bb;
+}
+
+.Backstage {
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(237, 224, 232, 0.01) 14%,
+      rgba(219, 211, 218, 0.01) 29%,
+      rgba(43, 61, 1, 0.4) 60%,
+      rgb(4, 0, 15) 82%
+    ),
+    url(images/backstage_B.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+
+-webkit-box-shadow: inset 1px 2px 25px 14px #000000; 
+box-shadow: inset 1px 2px 25px 14px #000000;
+}
+
+.holderAccordion{
+
+background-color: #f3f7de;
+  width: 100vw;
+}
+.accordion-item {
+  border: none;
+
+  width: 95vw;
+}
+.accordion-item:hover {
+  
+-webkit-box-shadow: 2px 2px 15px 5px #DFE3CD; 
+box-shadow: 2px 2px 15px 5px #DFE3CD;
+  width: 95vw;
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+background-color: rgb(243, 247, 222);
+  border: 0;
+  border-radius: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+
+.accordion-button:not(.collapsed) {
+     color: #9b8d7c;
+   background-color: rgb(243, 247, 222);
+ box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+.contact_image {
+  height: 53vh;
+  /* background-color: rgb(248, 248, 248, 0.1); */
+  /* background-image: url(images/back_contact.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 1.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.contact_image a {
+  color: #e7d3bb;
+}
+.contact_image a:hover {
+  font-weight: 400;
+  color: rgba(5, 167, 225, 0.9);
+  color: rgb(251 204 136);
+}
+
+.Line {
+  background-image: url(images/line.png);
+  height: 30vh;
+  /* width: 70%; */
+  background-position: -1vw 4vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border: 1px solid red; */
+  z-index: 5;
+  padding-left: 2vw;
+}
+
+.hover_reveal {
+  opacity: 0;
+
+  /* transform: translate(0,-20px); */
+  transition: 0.6s ease-in-out;
+}
+.hover_reveal_inner {
+  display: block;
+  will-change: transform;
+  overflow: hidden;
+}
+.hovver_reveal_imgr {
+  opacity: 0;
+
+  will-change: transform;
+  transform: scale(0.1, 0.1);
+  transition: 1.5s ease-in-out;
+}
+/* =================================================================================( Fontsize Start)====================================================================================================================== */
+.FontSize3 {
+  font-size: 1.8vw;
+  color: #928975;
+}
+
+.FontSize4 {
+  font-size: 5vw;
+  color: #928975;
+  color: #d4d5d9;
+  color: #d4bea3;
+  opacity: 0.9;
+}
+
+.FontSize1 {
+  font-size: 1vw;
+  /* color: #928975;
+   color: #d4d5d9;
+     color: #d4bea3; */
+  color: #9b8d7c;
+  opacity: 0.9;
+  /* font-family: 'Reenie Beanie', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+.FontSize5 {
+  font-size: 4.5vw;
+  color: #e7d3bb;
+  /* color: #d4d5d9; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  opacity: 0.9;
+  z-index: 4;
+}
+
+.FontSize1-5 {
+  font-size: 1.5vw;
+
+  color: #e7d3bb;
+  color: #9b8d7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  z-index: 5;
+}
+
+.FontSize1-6 {
+  font-size: 1.8vw;
+  color: #615a4b;
+  color: #d4d5d9;
+  color: #9b8d7c;
+  /* color: #9b8d7c; */
+
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Audiowide', cursive; */
+
+  /* font-family: 'Poller One', cursive; */
+
+  /* font-family: 'Rammetto One', cursive; */
+
+  /* font-family: 'Shrikhand', cursive; */
+
+  /* font-family: 'Vast Shadow', cursive; */
+
+  font-weight: 400;
+  z-index: 5;
+}
+.FontSize1-9 {
+  font-size: 2vw;
+  color: #615a4b;
+  color: #d4d5d9;
+  color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  z-index: 3;
+}
+.layerMetall {
+  z-index: 50;
+}
+.FontSize1-7 {
+  font-size: 0.9vw;
+
+  color: #e7d3bb;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  z-index: 5;
+}
+.FontSize1-7:hover {
+  font-size: 0.9vw;
+  color: #fb7304;
+  /* color: #332357;
+  color: rgba(5, 167, 225, 0.9); */
+  /* color: rgb(251 204 136); */
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  z-index: 5;
+}
+.FontSize1-2 {
+  font-size: 1.2vw;
+
+  color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  z-index: 5;
+}
+
+.FontSize1 {
+  font-size: 1vw;
+
+  color: #9b8d7c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.FontVieportPrfile {
+  font-size: 3.5vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5vw;
+}
+.FontVieportProject {
+  font-size: 1.5vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5vw;
+}
+.FontVieportTitle {
+  font-size: 1.8vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.8vw;
+}
+.FontVieportWorkflow {
+  font-size: 1.2vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3vw;
+}
+.FontSizeWorkflowTitle {
+  font-size: 1.9vw;
+  color: #070500;
+  color: #d4d5d9;
+  color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4vw;
+}
+
+.FontSizeWorkflowUptodate {
+  font-size: 1.3vw;
+  color: #070500;
+  color: #ffffff;
+  color: #e7d3bb;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.4vw;
+}
+
+.FontSize1-4 {
+  font-size: 1.4vw;
+  color: #928975;
+  color: #d4d5d9;
+}
+
+.FontSize1-2Raleway {
+  font-size: 0.8vw;
+  color: #615a4b;
+  color: #d4bea3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.15vw;
+}
+
+.FontSize1-3Raleway {
+  font-size: 1.2vw;
+
+  color: #d4bea3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* =================================================================================( Fontsize End)====================================================================================================================== */
+.LetterSpase04 {
+  letter-spacing: 0.4vw;
+}
+.LetterSpase08 {
+  letter-spacing: 2.2vw;
+}
+.LetterSpase03 {
+  letter-spacing: 0.3vw;
+}
+
+#stage {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: auto;
+  width: 100%;
+}
+
+.Hover {
+  text-decoration: none;
+}
+
+.Hover:hover {
+  /* color: #070500; */
+  font-weight: 700;
+  color: #d4bea3;
+}
+.fingerPrint {
+  height: 8vh;
+  border: 1px solid #e7d3bb;
+
+  border-radius: 5%;
+  filter: blur(1px);
+}
+
+.RotationNavLinks {
+  transform: rotate(-90deg);
+  width: 10vw;
+  height: 5vh;
+}
+.slide-num {
+  position: fixed;
+  top: 55vh;
+  left: 0vw;
+}
+
+.NavFixed {
+  width: 100%;
+  position: fixed;
+  background-color: #0d02251a;
+  /* opacity: 0.9; */
+  transition: 0.3s ease-in-out;
+  z-index: 4;
+}
+
+.NavActiv {
+  transition: 0.3s ease-in-out;
+  background-color: #0d0225;
+  /* box-shadow: 5px -1px 12px -5px rgb(255, 254, 254); */
+  z-index: 4;
+}
+main {
+  height: 200vh;
+}
+
+.slide {
+  width: 100vw;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+
+.link_mages:hover {
+  font-weight: bolder;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.Workflow {
+  width: 100%;
+  height: auto;
+  background-color: #0d0225;
+  background-color: #060014;
+}
+
+.colAstronaut {
+  background-image: url(images/astronaut-g06196fa59_1920.jpg);
+  height: 50vh !important;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Workflow_Preparation {
+  height: 8vh;
+  background-color: #fdac0f;
+
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.Workflow_Title {
+  height: 8.1vh;
+  width: 100%;
+
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* border: 1px solid red; */
+  color: #d4d5d9;
+  font-size: 1.8vw;
+}
+.Workflow_Baby {
+  background-image: url(images/Start.jpg);
+  height: 50vh;
+  width: 100%;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+.Workflow_Computer {
+  background-image: url(images/bert.jpg);
+  height: 60vh;
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 1.4vw;
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
+}
+.Workflow_ComputerNew {
+  background-image: url(images/bulletin_dark.jpg);
+  height: 40vh;
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 1.4vw;
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
+}
+.Workflow-Music {
+  background-image: url(images/Music_3.jpg);
+  height: 40vh;
+  /* width: 100%; */
+  /* background-position:50vh  ; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 1.5vw;
+  /* font-family: 'Montserrat', sans-serif; */
+  letter-spacing: 0.2vw;
+  font-weight: 500;
+}
+.colWorkflowFirst_3 {
+  width: 23.2% !important;
+}
+
+.colWorkflowTwo_1 {
+  height: 40vh;
+  /* width: 35vw; */
+}
+.colWorkflowTwo_2 {
+  height: 40vh;
+  width: 61%;
+}
+/* =================================================================================(1399px)====================================================================================================================== */
+@media (max-width: 1399.98px) {
+  .Viewport_Contact {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: 22% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+/* =================================================================================( 1440px)====================================================================================================================== */
+@media (max-width: 1441px) {
+  .Viewport_Form {
+  }
+  .Profile_Image {
+    background-image: linear-gradient(
+        rgba(168, 124, 68, 0.1),
+        rgba(168, 124, 68, 0.01),
+        rgba(194, 182, 112, 1)
+      ),
+      url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+  }
+}
+/* =================================================================================(1200px)====================================================================================================================== */
+@media (max-width: 1200px) {
+  .Viewport_Form {
+    height: 100vh;
+  }
+  .Profile_Image {
+    background-image: linear-gradient(
+        rgba(168, 124, 68, 0.1),
+        rgba(168, 124, 68, 0.01),
+        rgba(194, 182, 112, 1)
+      ),
+      url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 110vh;
+  }
+
+  .Viewport_Contact {
+    background-image: url(images/Contact.jpg);
+    height: 65vh;
+    width: 21% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .RotationNavLinks {
+    transform: rotate(-90deg);
+    width: 13vw;
+    height: 4vh;
+  }
+  .FontSize1-2Raleway {
+    font-size: 1.7vw;
+    color: #615a4b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .FontSize1 {
+    font-size: 1.3vw;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  .FontSize1-4 {
+    font-size: 1.8vw;
+    color: #928975;
+  }
+}
+
+/* =================================================================================( 992px)====================================================================================================================== */
+@media (max-width: 992px) {
+  .Error {
+    background-image: url(images/Error.png);
+    height: 29vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    z-index: 5;
+  }
+  .FontSize1 {
+    font-size: 1.5vw;
+    color: #070500;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  .FontSize1-4 {
+    font-size: 1.6vw;
+    color: #928975;
+  }
+}
+
+.Viewport_Contact {
+  background-image: url(images/Contact.jpg);
+  height: 65vh;
+  width: 22.1% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* =================================================================================( 768px)====================================================================================================================== */
+@media (max-width: 768px) {
+  .Viewport_Code {
+    background-image: url(images/colourSUn.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 51vh;
+    /* width: 100%; */
+    /* opacity: 0.6 !important; */
+  }
+  .Profile_Hugo {
+    background-image: linear-gradient(
+        rgba(124, 124, 141, 0.5),
+        rgba(194, 182, 112)
+      ),
+      url(images/hugol_hell_2.jpg);
+    background-size: 78vw auto;
+
+    background-position: -121vw -199.9vh;
+  }
+  .Profile_Text {
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .Profile_Image {
+    background-image: linear-gradient(
+        rgba(168, 124, 68, 0.1),
+        rgba(168, 124, 68, 0.01),
+        rgba(194, 182, 112, 1)
+      ),
+      url(images/Portrait_Hugo_O.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+  }
+
+  .BackMobileViewPort {
+    height: 100vh;
+  }
+
+  .Profile {
+    position: relative;
+
+    height: 100vh;
+  }
+
+  .box2 {
+    width: 58% !important;
+  }
+  .FontSize1-2Raleway {
+    font-size: 1.9vw;
+    color: #615a4b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .FontSize1 {
+    font-size: 1.5vw;
+
+    color: #9b8d7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+  .FontSize1-5 {
+    font-size: 1.6vw;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .FontSize1-4 {
+    font-size: 1.9vw;
+    color: #928975;
+  }
+  .RotationNavLinks {
+    transform: rotate(-90deg);
+    width: 10vw;
+    height: 5vh;
+  }
+}
+/* =================================================================================( 576px)====================================================================================================================== */
+@media (max-width: 576px) {
+.accordion-item {
+  border: none;
+
+  width: 100vw;
+}
+
+  .Backstage {
+  background-image: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.01) 0%,
+      rgba(237, 224, 232, 0.01) 14%,
+      rgba(219, 211, 218, 0.01) 29%,
+      rgba(43, 61, 1, 0.4) 60%,
+      rgb(4, 0, 15) 82%
+    ),
+    url(images/backstage_BMobile-min.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+
+-webkit-box-shadow: inset 1px 2px 25px 14px #000000; 
+box-shadow: inset 1px 2px 25px 14px #000000;
+}
+  .Profile_Holder {
+    position: absolute;
+    display: none;
+    height: 100vh;
+    width: 100%;
+  }
+  .BackMobileViewPort {
+    height: 80vh;
+  }
+  .TextProfil {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  /* .Projekt_Title {
+    background-color: rgba(194, 182, 112, 1);
+  } */
+  .Profile_Text {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+  .Profile_Image {
+    background-image: url(images/Portrait_Hugo_Mobile.jpg);
+    background-size: cover;
+    background-position: -3vw -29vh;
+    background-repeat: no-repeat;
+
+    height: 50vh;
+  }
+
+  .Profile {
+    background-image: url(images/JuJYPW.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: auto;
+  }
+  .Viewport {
+    height: 100vh;
+
+    position: relative;
+    width: 100vw;
+  }
+  .Viewport_Code {
+    background-image: url(images/colourSUn.png);
+    background-size: cover;
+    background-position: -80vw 2vh;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+  }
+  .Viewport_Border {
+    border-bottom: 1px solid #fffaf3;
+  }
+
+  .Viewport_Form {
+    background-size: cover;
+    background-position: center;
+    background-image: none;
+    height: 60vh;
+  }
+
+  .FontSize1 {
+    font-size: 1vw;
+    color: #9b8d7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  .FontVieportWorkflow {
+    font-size: 4.6vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3vw;
+  }
+  .FontVieportProject {
+    font-size: 4.6vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5vw;
+  }
+  .FontVieportTitle {
+    font-size: 5vw;
+
+    color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8vw;
+  }
+  .Viewport_Text {
+    background-image: none;
+    /* background-image: url(images/architecture.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 50vh;
+  }
+  .Vieport_Workflow {
+    background-image: url(images/Car.jpg);
+    height: 15vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Viewport_Projects {
+    background-image: url(images/ShapeB.jpg);
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Viewport_Profile {
+    background-image: url(images/Profile.jpg);
+    height: 13vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none !important;
+  }
+  .Viewport_Profile_Mobile {
+    background-image: url(images/Profile.jpg);
+    height: 13vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block !important;
+  }
+  .vieportHolderSCol_F {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: 0vw 0vh;
+    background-repeat: no-repeat;
+  }
+  .vieportHolderSCol_S {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: -16.6vw 0vh;
+    background-repeat: no-repeat;
+  }
+  .vieportHolderSCol_T {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: -33vw 0vh;
+    background-repeat: no-repeat;
+  }
+  .vieportHolderSCol_V {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: -49.8vw 0vh;
+    background-repeat: no-repeat;
+  }
+  .vieportHolderSCol_Ft {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: -66.5vw 0vh;
+    background-repeat: no-repeat;
+  }
+  .vieportHolderSCol_Sx {
+    height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        rgba(7, 1, 22, 1) 5%,
+        rgba(7, 1, 22, 0.9) 25%,
+        rgba(7, 1, 22, 0.8) 30%,
+        rgba(51, 35, 87, 0.5) 50%,
+        /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+      ),
+      url(images/JuJYPD.jpg);
+    background-size: 380vw auto;
+    background-position: -83vw 0vh;
+    background-repeat: no-repeat;
+  }
+
+  .wrapper {
+    width: 100vw;
+  }
+  .box2 {
+    width: 100% !important;
+  }
+
+  .Contact {
+    width: auto;
+    height: 50vh !important;
+
+    background-color: #060014;
+  }
+
+  .HeightContent {
+    background-image: none;
+    width: 100%;
+    height: auto;
+    z-index: -5;
+  }
+
+  .Line {
+    background-image: none;
+    height: 100%;
+    /* width: 70%; */
+    background-position: -1vw 4vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid red; */
+    z-index: 5;
+    padding-left: 2vw;
+  }
+
+  .FontSize1 {
+    font-size: 3.5vw;
+
+    color: #9b8d7c;
+    opacity: 0.9;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+  .FontSize1-4 {
+    font-size: 3.6vw;
+    color: #928975;
+  }
+  .FontSize1-3Raleway {
+    font-size: 4.5vw;
+
+    color: #d4bea3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+
+  .FontSize1-5 {
+    font-size: 3.9vw;
+
+    color: #9b8d7c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .FontSize1-4 {
+    font-size: 3.9vw;
+    color: #928975;
+  }
+  .FontSize4 {
+    font-size: 11.4vw;
+    color: #d4bea3;
+    opacity: 0.9;
+  }
+  .FontSize5 {
+    font-size: 8.8vw;
+    color: #e7d3bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    opacity: 0.9;
+    z-index: 4;
+  }
+  .FontSize1-6 {
+    font-size: 6.4vw;
+    color: #9b8d7c;
+    /* color: #9b8d7c; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    z-index: 5;
+  }
+  .FontSize1-7 {
+    font-size: 4.5vw;
+    color: #e7d3bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    z-index: 5;
+  }
+  .FontSize1-9 {
+    font-size: 6vw;
+    color: #615a4b;
+    color: #d4d5d9;
+    color: #e7d3bb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    z-index: 3;
+  }
+}
