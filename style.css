@@ -2,13 +2,16 @@ html {
   scrollbar-width: none;
 }
 
+@font-face {font-family: "Crystal Sky"; src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot"); src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff") format("woff"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#") format("svg"); } 
+
 body {
   width: 99.1vw !important;
 
   font-family: 'Raleway', sans-serif;
 
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Crystal Sky';
+
   overscroll-behavior: none;
   overflow-x: hidden;
   height: 100vh;
@@ -206,14 +209,14 @@ body {
       rgba(168, 124, 68, 0),
       rgb(243, 247, 222)
     ),
-    url(images/parallax_PortraitUp.png), url(images/parallax_PortraitDown.png),
-    url(images/brush_parallax.png);
+    url(images/parallax_PortraitUp.png), url(images/parallax_PortraitDownA.png),
+    url(images/brush_parallaxD.png);
 
   background-repeat: no-repeat;
   background-position: center;
   background-position: 200% 50%;
   background-size: contain;
-  background-color: #f7f5db;
+  background-color: hsl(56, 64%, 91%);
 
   height: 100vh;
   z-index: 1;
@@ -247,6 +250,18 @@ body {
 .Profile {
   position: relative;
 
+  background-image: linear-gradient(
+      180deg,
+      rgba(7, 1, 22, 1) 5%,
+      rgba(7, 1, 22, 0.9) 25%,
+      rgba(7, 1, 22, 0.8) 30%,
+      rgba(51, 35, 87, 0.5) 50%,
+      /* rgb(243, 247, 222, 0.9) 90%, */ rgb(243, 247, 222, 1) 99%
+    ),
+    url(images/JuJYPD.jpg);
+  background-size: 108vw auto;
+  background-position:center;
+  background-repeat: no-repeat;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -500,9 +515,10 @@ box-shadow: inset 0px -1px 12px 8px #000000;
      color: #d4bea3; */
   color: #9b8d7c;
   opacity: 0.9;
-  /* font-family: 'Reenie Beanie', cursive; */
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
+ 
 }
 
 .FontSize5 {
