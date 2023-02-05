@@ -24,15 +24,28 @@ html {
     font-family: 'Comfortaa SemiBold';
     src: url('Comfortaa SemiBold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'ComforterBrush Regular';
+    src: url('ComforterBrush Regular.ttf') format('truetype');
+}
+
+
+
+
+
+.font-ComforterBrush-regular {
+    font-family: 'ComforterBrush Regular';
+
+}
 
 .font-Crystal-regular {
     font-family: 'Crystal Dust';
-    color: #d4d5d9;
+
 }
 
 .font-Comfortaa-light{
     font-family: 'Comfortaa Light';
-    color: #ffffff;
+  
 
     font-weight: 300;
   
@@ -40,7 +53,7 @@ html {
 
 .font-Comfortaa-regular{
     font-family: 'Comfortaa Regular';
-    color: #ffffff;
+ 
 
     font-weight: 400;
 
@@ -50,14 +63,14 @@ html {
 
 .font-Comfortaa-medium{
     font-family: 'Comfortaa Medium';
-    color: #ffffff;
+
 
 
   letter-spacing: 0.1vw;
 }
 .font-Comfortaa-semiBold2 {
     font-family: 'Comfortaa SemiBold';
-    color: #ffffff;
+
    
 
   letter-spacing: 0.1vw;
@@ -65,6 +78,11 @@ html {
 
 
 /* font-size */
+
+.font-12{
+  font-size: 0.6vw;
+
+}
 .font-16{
   font-size: 0.8vw;
 
@@ -116,8 +134,18 @@ html {
 }
 
 /* colors */
+.white-transparent-color{
+
+  color: #9E9FA0;
+}
 .seconder-color{
   color: #C8954F;
+}
+.blue-color{
+  color: #00C0BB;
+}
+.orange-color{
+  color: #F76900;
 }
 
 body {
@@ -131,6 +159,6 @@ body {
   overscroll-behavior: none;
   overflow-x: hidden;
   height: 100vh;
-  background-color: #0A0A0D;
+  background-color: #000001;
 }
 

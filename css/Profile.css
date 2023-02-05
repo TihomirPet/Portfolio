@@ -1,0 +1,20 @@
+.profile{
+    height: 100vh;
+}
+.profile-images{
+    height: 100vh;
+}
+.profile-images-holder{
+    width: 47vw;
+    gap: 1.2vw;
+}
+.profile-images-first{
+    background-image: url(/images/_DSC5327.jpg);
+    background-position: -3vw -7vh;
+    background-size:46vw;
+    height: 90%;
+    border-top-left-radius:30px;
+}
+.profile-images-second{
+       height: 92.4%;
+}
