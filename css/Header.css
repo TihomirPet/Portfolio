@@ -1,0 +1,21 @@
+.header{
+
+    background-image: url(/images/portfolio_background_warm_header_Hq.jpg);
+    -webkit-height: 100dvh;
+    height: 100vh;
+    width: 100vw;
+    background-position: 0vw 0vh;
+    background-size:cover;
+}
+.title-Holder{
+    height: 100vh;
+}
+.title-Hallo{
+    width: 60%;
+}
+.title-Portfolio{
+      width: 50%; 
+}
+.title-Name{
+     width: 50% ;  
+}
