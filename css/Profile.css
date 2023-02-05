@@ -1,11 +1,25 @@
 .profile{
     height: 100vh;
 }
+/* .profile::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  background: radial-gradient(
+    circle 42vw at var(--cursorX) var(--cursorY),
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.4) 95%
+  );
+  z-index: 20;
+} */
 .profile-images{
     height: 100vh;
 }
 .profile-images-holder{
-    width: 47vw;
+    width: 45vw;
     gap: 1.2vw;
 }
 .profile-images-first{
@@ -17,4 +31,18 @@
 }
 .profile-images-second{
        height: 92.4%;
+}
+.profile-images-second-top{
+        width: 90%;
+    height: 45%;
+        background-image: url(/images/_DSC5327_blue.jpg);
+     background-position: -5vw -3vh;
+         background-size:35vw;
+}
+.profile-images-second-bottom{
+    height: 52.4%;
+    width: 75%;
+        background-image: url(/images/_DSC5327_negativ.jpg);
+     background-position: -80vw -40vh;
+                      background-size:49vw;
 }
