@@ -1,5 +1,11 @@
-.profile{
-    height: 100vh;
+.profile {
+  height: 100vh;
+   background:radial-gradient(circle at 34% 49%, rgba(0, 80, 78, 1) 0%, rgba(0, 0, 1, 1) 40%, rgba(0, 0, 1, 1) 100%);
+
+  
+   background:radial-gradient(ellipse at 31% 50%, rgba(0, 64, 62, 1) 0%, rgba(0, 0, 1, 1) 37%, rgba(0, 0, 1, 1) 100%);
+  /* background:radial-gradient(ellipse at 31% 50%, rgba(81, 34, 0, 1) 0%, rgba(0, 0, 1, 1) 37%, rgba(0, 0, 1, 1) 100%); */
+
 }
 /* .profile::before {
   content: '';
@@ -15,34 +21,34 @@
   );
   z-index: 20;
 } */
-.profile-images{
-    height: 100vh;
+.profile-images {
+  height: 100vh;
 }
-.profile-images-holder{
-    width: 45vw;
-    gap: 1.2vw;
+.profile-images-holder {
+  width: 45vw;
+  gap: 1.2vw;
 }
-.profile-images-first{
-    background-image: url(/images/_DSC5327.jpg);
-    background-position: -3vw -7vh;
-    background-size:46vw;
-    height: 90%;
-    border-top-left-radius:30px;
+.profile-images-first {
+  background-image: url(/images/_DSC5327.jpg);
+  background-position: -3vw -7vh;
+  background-size: 46vw;
+  height: 90%;
+  border-top-left-radius: 30px;
 }
-.profile-images-second{
-       height: 92.4%;
+.profile-images-second {
+  height: 92.4%;
 }
-.profile-images-second-top{
-        width: 90%;
-    height: 45%;
-        background-image: url(/images/_DSC5327_blue.jpg);
-     background-position: -5vw -3vh;
-         background-size:35vw;
+.profile-images-second-top {
+  width: 90%;
+  height: 45%;
+  background-image: url(/images/_DSC5327_blue.jpg);
+  background-position: -5vw -3vh;
+  background-size: 35vw;
 }
-.profile-images-second-bottom{
-    height: 52.4%;
-    width: 75%;
-        background-image: url(/images/_DSC5327_negativ.jpg);
-     background-position: -80vw -40vh;
-                      background-size:49vw;
+.profile-images-second-bottom {
+  height: 52.4%;
+  width: 75%;
+  background-image: url(/images/_DSC5327_negativ.jpg);
+  background-position: -80vw -40vh;
+  background-size: 49vw;
 }

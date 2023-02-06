@@ -140,14 +140,17 @@ html {
 }
 .seconder-color{
   color: #C8954F;
+    
 }
 .blue-color{
-  color: #00C0BB;
+  color: rgb(0, 192, 187);
 }
 .orange-color{
   color: #F76900;
 }
-
+.text-color{
+  color: rgb(250, 236, 215);
+}
 body {
 
 
