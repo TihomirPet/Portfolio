@@ -164,4 +164,7 @@ body {
   height: 100vh;
   background-color: #000001;
 }
+a{
+  text-decoration: none;
+}
 

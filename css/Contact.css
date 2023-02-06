@@ -1,0 +1,89 @@
+.contact {
+  height: 100vh;
+}
+.contact-element {
+  height: 6vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgb(255, 255, 255, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(160, 159, 159, 0.25) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+
+.contact-data{
+   height: 6vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgb(255, 255, 255, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 192, 187, 0.25) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;   
+}
+.contact-data:hover{
+   height: 6vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgba(58, 4, 4, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 192, 187, 0.25) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;   
+    
+}
+.contact-title{
+    position: relative;
+      border-radius: 6px;
+      height: 6vh;
+    background-color:rgb(0, 192, 187);
+}
+.contact-title-first {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  z-index: 5;
+}
+.contact-title-second {
+  position: absolute;
+  top: 26%;
+  left: 30.5%;
+  z-index: 4;
+}
+.contact-link{
+   color: rgb(250, 236, 215);
+   width: 100%;
+
+}
+.contact-link:hover{
+     width: 100%;
+   color: rgb(0, 192, 187);
+}
