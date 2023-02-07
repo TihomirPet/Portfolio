@@ -99,8 +99,9 @@ html {
      font-size: 1.9vw;
 
 }
+
 .font-50-52{
-       font-size: 1.9vw;
+       font-size: 2.5vw;
 
 }
 .font-67-34{
@@ -176,5 +177,109 @@ a{
   top: 0;
   width: 100%;
 
+}
+/* // ... { MEDIA Query} */
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }     
+
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+.font-12{
+  font-size: 1vw;
+
+}
+.font-16{
+  font-size: 1.2vw;
+
+}
+.font-21-33{
+  font-size: 1.4vw;
+
+}
+.font-28-43{
+    font-size: 1.3vw;
+
+}
+.font-37-90{
+     font-size: 3.3vw;
+
+}
+.font-50-52{
+       font-size: 2.9vw;
+
+}
+.font-67-34{
+       font-size:71.34px;
+
+}
+
+.font-89-76{
+       font-size:8.3vw;
+
+}
+
+.font-119-66{
+       font-size:6.8vw;
+
+} }
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+.font-12{
+  font-size: 0.6vw;
+
+}
+.font-16{
+  font-size: 0.8vw;
+
+}
+.font-21-33{
+  font-size: 1vw;
+
+}
+.font-28-43{
+    font-size: 1.3vw;
+
+}
+.font-37-90{
+     font-size: 1.9vw;
+
+}
+.font-50-52{
+       font-size: 1.9vw;
+
+}
+.font-67-34{
+       font-size:67.34px;
+
+}
+
+.font-89-76{
+       font-size:4.3vw;
+
+}
+
+.font-119-66{
+       font-size:5.8vw;
+
+} }
+
+/* // `xs` returns only a ruleset and no media query */
+@media (max-width: 469.98px) {
+
+
+  
 }
 

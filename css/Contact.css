@@ -48,7 +48,7 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 6px;
-  background: rgba(58, 4, 4, 0.07);
+  background: rgba(255, 255, 255, 0.09);
   border-image: linear-gradient(
       180deg,
       rgba(0, 192, 187, 0.25) 0%,
@@ -89,4 +89,72 @@
 .contact-link:hover{
      width: 100%;
    color: rgb(0, 192, 187);
+}
+
+
+.contact-arrow{
+  background-image: url(/images/arrow.png);
+  height:6vh;
+ 
+  background-size: 3vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* // ... { MEDIA Query} */
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }     
+
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .contact-arrow{
+  background-image: url(/images/arrow.png);
+  height:6vh;
+ 
+  background-size: 3vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+  .contact-element {
+  height: 10vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgb(255, 255, 255, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(160, 159, 159, 0.25) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+ }
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  
+ }
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+/* // `xs` returns only a ruleset and no media query */
+@media (max-width: 469.98px) {
+
+
+  
 }

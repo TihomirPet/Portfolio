@@ -51,16 +51,17 @@
       <div class="header container-fluid animateBackground" id="01">
         <div class="row">
           <div
-            class="col-7 title-Holder d-flex flex-column align-items-center justify-content-center"
+            class="col-7 title-Holder d-flex flex-column align-items-center justify-content-center "
           >
-            <div class="title-Hallo">
+            <div class="title-Hallo ">
               <p
                 class="font-50-52 letter-spacing-02 mb-0 text-color font-Crystal-regular animateTitle"
               >
                 Hallo hier bei
               </p>
+               
             </div>
-            <div class="title-Portfolio font-Comfortaa-regular">
+            <div class="title-Portfolio font-Comfortaa-regular ">
               <h1
                 class="title-Portfolio-first font-119-66 letter-spacing-04 mb-0 text-white animateTitle"
               >
@@ -114,22 +115,22 @@
         <div class="row">
           <div class="col-6 profile-images d-flex justify-content-end p-3">
             <div class="profile-images-holder d-flex justify-content-end">
-              <div class="col-4 profile-images-first mt-5"></div>
-              <div class="col-6 profile-images-second mt-4">
+              <div class="col-4 profile-images-first mt-sm-3 mt-lg-5"></div>
+              <div class="col-6 profile-images-second mt-sm-2 mt-lg-4 ">
                 <div class="profile-images-second-top"></div>
-                <div class="profile-images-second-bottom mt-4"></div>
+                <div class="profile-images-second-bottom mt-sm-2  mt-lg-4"></div>
               </div>
             </div>
           </div>
-          <div class="col-6 ps-0 pt-5">
-            <div class="d-flex ps-0 text-color mt-5">
-              <div class="col-2 d-flex flex-column align-items-end pe-3 mt-5">
+          <div class="col-6 ps-0 pt-5 ">
+            <div class="d-flex ps-0 text-color mt-sm-4 mt-lg-5 ">
+              <div class="col-lg-2 d-flex flex-column align-items-end pe-lg-3 mt-lg-5">
                 <p class="font-12 mb-0 font-Comfortaa-light">
                   1.777rem /28.43px
                 </p>
                 <p class="font-12 font-Comfortaa-light mt-3">1rem /16.00px</p>
               </div>
-              <div class="col-5 ps-3 mt-5">
+              <div class="col-sm-6 col-lg-5 ps-3 mt-lg-5">
                 <h3 class="font-28-43 font-Comfortaa-regular">
                   Hallo ich bin Tihomir .
                 </h3>
@@ -399,17 +400,17 @@
                   class="col-4 contact-section-one-first font-16 font-Comfortaa-light text-color"
                 >
                   <div
-                    class="contact-element mt-4 d-flex align-items-center ps-4  box"
+                    class="contact-element mt-sm-2 mt-lg-4 d-flex align-items-center ps-4  box"
                   >
                     <p class="mb-0">Lasst uns</p>
                   </div>
                   <div
-                    class="contact-element mt-4 d-flex align-items-center ps-4 box"
+                    class="contact-element mt-sm-2 mt-lg-4 d-flex align-items-center ps-4 box"
                   >
                     <p class="mb-0">etwas Amüsantes</p>
                   </div>
                   <div
-                    class="contact-element mt-4 d-flex align-items-center ps-4 box"
+                    class="contact-element mt-sm-2 mt-lg-4 d-flex align-items-center ps-4 box"
                   >
                     <p class="mb-0">entwerfen</p>
                   </div>
@@ -419,7 +420,7 @@
               <!-- section one end -->
             </div>
             <!-- section two start -->
-            <div class="col-6 mt-4">
+            <div class="col-6 mt-sm-2 mt-lg-4">
               <div class="row">
                 <!-- section two fitst element start -->
                 <div class="col-4 section-two-first">
@@ -440,22 +441,11 @@
                 <!-- section two fitst element end -->
                 <!-- section two second element start -->
                 <div
-                  class="col-1 blue-color d-flex align-items-center justify-content-center"
+                  class="col-1 blue-color   contact-arrow"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60"
-                    height="35"
-                    fill="currentColor"
-                    class="bi bi-arrow-right"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                    />
-                  </svg>
+            
                 </div>
+              
 
                 <!-- section two second element end -->
                 <!-- section two third element start -->
@@ -464,7 +454,7 @@
                 >
                   <a
                     href="mailto:tihomirpetrov@web.de"
-                    class="contact-link ps-5"
+                    class="contact-link ps-md-2 ps-lg-3 ps-xl-5"
                   >
                     <p class="mb-0 letter-spacing-01">
                       Email: tihomirpetrov@web.de
@@ -487,7 +477,7 @@
                 <!-- section three second element end -->
                 <!-- section three third element start -->
                 <div class="col-5 contact-data d-flex align-items-center">
-                  <a href="tel:0163 9136818" class="contact-link ps-5">
+                  <a href="tel:0163 9136818" class="contact-link ps-md-2 ps-lg-3 ps-xl-5">
                     <p class="mb-0 letter-spacing-01">Tel: 0163 9136818</p></a
                   >
                 </div>
@@ -525,45 +515,45 @@
     <script>
 
 
-   gsap.fromTo(
-        '.animateBackground',
-        { opacity: 0, z: '-900' },
-        {
-          delay: 1,
-          opacity: 1,
-          duration: 1,
-          stagger: 0.5,
-          ease: 'Power.easeInOut',
-          z: '0',
-        }
-      );
+  //  gsap.fromTo(
+  //       '.animateBackground',
+  //       { opacity: 0, z: '-900' },
+  //       {
+  //         delay: 1,
+  //         opacity: 1,
+  //         duration: 1,
+  //         stagger: 0.5,
+  //         ease: 'Power.easeInOut',
+  //         z: '0',
+  //       }
+  //     );
       //########## animation Title ###############
-      gsap.fromTo(
-        '.animateTitle',
-        { opacity: 0, z: '900' },
-        {
-          delay: 1.5,
-          opacity: 1,
-          duration: 1,
-          stagger: 0.5,
-          ease: 'Power.easeInOut',
-          z: '0',
-        }
-      );
+      // gsap.fromTo(
+      //   '.animateTitle',
+      //   { opacity: 0, z: '900' },
+      //   {
+      //     delay: 1.5,
+      //     opacity: 1,
+      //     duration: 1,
+      //     stagger: 0.5,
+      //     ease: 'Power.easeInOut',
+      //     z: '0',
+      //   }
+      // );
 
       //########## animation Nav ###############
-      gsap.fromTo(
-        '.animateNav',
-        { opacity: 0, y: '-90' },
-        {
-          delay: 1.6,
-          opacity: 1,
-          duration: 1.2,
-          stagger: 0.5,
-          ease: 'Power.easeInOut',
-          y: '0',
-        }
-      );
+      // gsap.fromTo(
+      //   '.animateNav',
+      //   { opacity: 0, y: '-90' },
+      //   {
+      //     delay: 1.6,
+      //     opacity: 1,
+      //     duration: 1.2,
+      //     stagger: 0.5,
+      //     ease: 'Power.easeInOut',
+      //     y: '0',
+      //   }
+      // );
       //########## animation Nav end ###############
       gsap.registerPlugin(ScrollTrigger);
       let lt = gsap
