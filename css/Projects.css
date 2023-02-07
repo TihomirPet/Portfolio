@@ -112,3 +112,73 @@
       color: rgb(250, 236, 215);
    text-decoration: none;
 }
+/* // ... { MEDIA Query} */
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }     
+
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .project-card {
+  height: 40vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: rgb(255, 255, 255, 0.09);
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+}
+.project-card:hover {
+
+  background: rgb(0, 192, 187, 0.08);
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 192, 187, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(0, 192, 187, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.3) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+
+}
+  
+ }
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+/* // `xs` returns only a ruleset and no media query */
+@media (max-width: 469.98px) {
+
+
+  
+}
