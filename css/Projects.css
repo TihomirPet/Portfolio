@@ -97,7 +97,7 @@
   height: 8vh;
 }
 .project-card-image{
-    opacity: 0.28;
+    opacity: 0.6;
 }
 .project-card:hover .project-card-image{
     opacity: 1;
