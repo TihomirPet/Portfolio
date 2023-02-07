@@ -128,6 +128,68 @@
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 
+
+    .title-Hallo {
+  width: 80%;
+}
+.title-Portfolio {
+  position: relative;
+  width: 70%;
+  height: 7.5vh;
+}
+.title-Name {
+  width: 70%;
+  position: relative;
+}
+
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgb(255, 255, 255, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(247, 105, 0, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+.nav-item :hover {
+  width: 20vw;
+  background-color: rgb(247, 105, 0, 05);
+  border-radius: 3px;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  display: block;
+  padding: 0.3rem 2rem;
+  color: #ffffff;
+    color: rgb(250, 236, 215);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.header {
+  background-image: url(/images/portfolio_background_warm_headerMobile_Hq.jpg);
+  -webkit-height: 100dvh;
+  height: 100vh;
+ 
+  background-position: -30vw 0vh;
+  background-size: cover;
+}
  }
 
 

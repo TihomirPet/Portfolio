@@ -24,8 +24,8 @@
   <body>
     <div class="container">
         <div class="row ">
-          <div class="col-7"></div>
-          <div class="col-5">
+          <div class="col-1 col-md-7"></div>
+          <div class="col-12 col-md-5 d-flex justify-content-center">
                  <ul class="nav font-Comfortaa-light font-12">
                 <li class="nav-item animateNav">
                   <a class="nav-link active" aria-current="page" href="#01"
@@ -51,7 +51,7 @@
       <div class="header container-fluid animateBackground" id="01">
         <div class="row">
           <div
-            class="col-7 title-Holder d-flex flex-column align-items-center justify-content-center "
+            class="col-12 col-md-7 title-Holder d-flex flex-column align-items-center justify-content-center "
           >
             <div class="title-Hallo ">
               <p
@@ -113,7 +113,7 @@
       <!--############ container profile start  ############################################-->
       <div class="profile container-fluid panel" id="02">
         <div class="row">
-          <div class="col-6 profile-images d-flex justify-content-end p-3">
+          <div class="col-6 profile-images d-flex justify-content-end p-3 ">
             <div class="profile-images-holder d-flex justify-content-end">
               <div class="col-4 profile-images-first mt-sm-3 mt-lg-5"></div>
               <div class="col-6 profile-images-second mt-sm-2 mt-lg-4 ">
@@ -515,45 +515,45 @@
     <script>
 
 
-  //  gsap.fromTo(
-  //       '.animateBackground',
-  //       { opacity: 0, z: '-900' },
-  //       {
-  //         delay: 1,
-  //         opacity: 1,
-  //         duration: 1,
-  //         stagger: 0.5,
-  //         ease: 'Power.easeInOut',
-  //         z: '0',
-  //       }
-  //     );
+   gsap.fromTo(
+        '.animateBackground',
+        { opacity: 0, z: '-900' },
+        {
+          delay: 1,
+          opacity: 1,
+          duration: 1,
+          stagger: 0.5,
+          ease: 'Power.easeInOut',
+          z: '0',
+        }
+      );
       //########## animation Title ###############
-      // gsap.fromTo(
-      //   '.animateTitle',
-      //   { opacity: 0, z: '900' },
-      //   {
-      //     delay: 1.5,
-      //     opacity: 1,
-      //     duration: 1,
-      //     stagger: 0.5,
-      //     ease: 'Power.easeInOut',
-      //     z: '0',
-      //   }
-      // );
+      gsap.fromTo(
+        '.animateTitle',
+        { opacity: 0, z: '900' },
+        {
+          delay: 1.5,
+          opacity: 1,
+          duration: 1,
+          stagger: 0.5,
+          ease: 'Power.easeInOut',
+          z: '0',
+        }
+      );
 
       //########## animation Nav ###############
-      // gsap.fromTo(
-      //   '.animateNav',
-      //   { opacity: 0, y: '-90' },
-      //   {
-      //     delay: 1.6,
-      //     opacity: 1,
-      //     duration: 1.2,
-      //     stagger: 0.5,
-      //     ease: 'Power.easeInOut',
-      //     y: '0',
-      //   }
-      // );
+      gsap.fromTo(
+        '.animateNav',
+        { opacity: 0, y: '-90' },
+        {
+          delay: 1.6,
+          opacity: 1,
+          duration: 1.2,
+          stagger: 0.5,
+          ease: 'Power.easeInOut',
+          y: '0',
+        }
+      );
       //########## animation Nav end ###############
       gsap.registerPlugin(ScrollTrigger);
       let lt = gsap

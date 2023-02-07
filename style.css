@@ -238,7 +238,7 @@ a{
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 .font-12{
-  font-size: 0.6vw;
+  font-size: 2.6vw;
 
 }
 .font-16{
@@ -246,7 +246,7 @@ a{
 
 }
 .font-21-33{
-  font-size: 1vw;
+  font-size: 3vw;
 
 }
 .font-28-43{
@@ -258,7 +258,7 @@ a{
 
 }
 .font-50-52{
-       font-size: 1.9vw;
+       font-size: 6.9vw;
 
 }
 .font-67-34{
@@ -272,7 +272,7 @@ a{
 }
 
 .font-119-66{
-       font-size:5.8vw;
+       font-size:13.8vw;
 
 } }
 
