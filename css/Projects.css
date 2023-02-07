@@ -2,7 +2,7 @@
   height: auto;
      /* background:radial-gradient(circle at 50% 52%, rgba(96, 41, 0, 1) 0%, rgba(0, 0, 1, 1) 37%, rgba(0, 0, 1, 1) 100%); */
         background:radial-gradient(circle at 50% 52%, rgba(72, 31, 0, 1) 0%, rgba(0, 0, 1, 1) 49%, rgba(0, 0, 1, 1) 100%);
-     
+     background-color: #0c0c0c;
 }
 
 .projects-title-holder {

@@ -1,7 +1,7 @@
 .contact {
      background:radial-gradient(circle at 18% 53%, rgba(0, 113, 110, 1) 0%, rgba(0, 0, 1, 1) 29%, rgba(0, 0, 1, 1) 100%);
      background-image: url(/images/portfolio_background_warm_footer_Hq.jpg);
-    
+    background-color: #0f0f0f;
   height: 100vh;
 }
 .contact-element {

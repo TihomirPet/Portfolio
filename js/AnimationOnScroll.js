@@ -191,24 +191,30 @@ gsap.registerPlugin(ScrollTrigger);
 //   end: 'bottom end',
 
 //   onEnter: (batch) =>
-//     gsap.to(batch, { opacity: 1, z: 0, backgroundSize: '100%', stagger: 0.15 }),
+//     gsap.to(batch, { opacity: 1, z: 0, backgroundSize: '100%', stagger: 0.15 })
+//     ,
+   
 //   onLeaveBack: (batch) =>
 //     gsap.to(batch, { opacity: 0, z: 10, backgroundSize: '100%', stagger: 0.1 }),
+
+
+    
 // });
 
 // ScrollTrigger.addEventListener('refreshInit', () =>
 //   gsap.set('.test1', { y: 0, backgroundSize: '0%' })
 // );
 // =====================================================
-ScrollTrigger.batch('.test1', {
-  onEnter: (elements) => {
-    gsap.from(elements, {
-      autoAlpha: 0,
-      y: 600,
-      duration: 1,
-      stagger: 0.5,
-      ease: 'Power.easeInOut',
-    });
-  },
-  once: true,
-});
+// ScrollTrigger.batch('.test1', {
+//   onEnter: (elements) => {
+//     gsap.from(elements, {
+//       autoAlpha: 0,
+//       y: 600,
+//       duration: 1,
+//       stagger: 0.5,
+//       ease: 'Power.easeInOut',
+//     });
+//   },
+//   once: true,
+// });
+

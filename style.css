@@ -167,4 +167,14 @@ body {
 a{
   text-decoration: none;
 }
+.wrapper{
+  position: relative;
+}
+.panel{
+  position: absolute;
+
+  top: 0;
+  width: 100%;
+
+}
 
