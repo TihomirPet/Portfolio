@@ -67,7 +67,7 @@
     position: relative;
       border-radius: 6px;
       height: 6vh;
-    background-color:rgb(0, 192, 187);
+    background-color:#00c0bb;
 }
 .contact-title-first {
   position: absolute;
@@ -145,6 +145,45 @@
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  .contact-element {
+  height: 6vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  background: rgb(255, 255, 255, 0.07);
+  border-image: linear-gradient(
+      180deg,
+      rgba(160, 159, 159, 0.25) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 5%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+.contact-title-first {
+  position: absolute;
+  top: 26%;
+  left: 40%;
+  z-index: 5;
+}
+.contact-title-second {
+  position: absolute;
+  top: 27%;
+  left: 40.5%;
+  z-index: 4;
+}
+.contact-arrow{
+  background-image: url(/images/arrow_down_small.png);
+  height:5vh;
+ 
+  background-size: 4.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
   
  }
 
