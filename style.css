@@ -2,31 +2,31 @@ html {
   scrollbar-width: none;
 }
 
-/* @font-face {font-family: "Crystal Sky"; src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot"); src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff") format("woff"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#") format("svg"); }  */
+@font-face {font-family: "Crystal Sky"; src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot"); src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff") format("woff"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#") format("svg"); } 
 
 @font-face {
-    font-family: 'Crystal Dust';
-    src: url('Crystal Dust.ttf') format('truetype');
+    font-family: 'CrystalDust';
+    src: url('/Fonts/CrystalDust.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Comfortaa Light';
-    src: url('Comfortaa Light.ttf') format('truetype');
+    src: url('/Fonts/Comfortaa-Light.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Comfortaa Regular';
-    src: url('Comfortaa Regular.ttf') format('truetype');
+    src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Comfortaa Medium';
-    src: url('Comfortaa Medium.ttf') format('truetype');
+    src: url('/Fonts/Comfortaa-Medium.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Comfortaa SemiBold';
-    src: url('Comfortaa SemiBold.ttf') format('truetype');
+    src: url('/Fonts/Comfortaa-SemiBold.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'ComforterBrush Regular';
-    src: url('ComforterBrush Regular.ttf') format('truetype');
+    font-family: 'ComforterBrushRegular';
+    src: url('/Fonts/ComforterBrush-Regular.ttf') format('truetype');
 }
 
 
@@ -34,12 +34,12 @@ html {
 
 
 .font-ComforterBrush-regular {
-    font-family: 'ComforterBrush Regular';
+    font-family: 'ComforterBrushRegular';
 
 }
 
 .font-Crystal-regular {
-    font-family: 'Crystal Dust';
+    font-family: 'CrystalDust';
 
 }
 
