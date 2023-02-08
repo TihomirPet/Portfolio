@@ -189,7 +189,47 @@ a{
 
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) { 
+  .font-12{
+  font-size: 0.9vw;
+
+}
+.font-16{
+  font-size: 1.1vw;
+
+}
+.font-21-33{
+  font-size: 1.3vw;
+
+}
+.font-28-43{
+    font-size: 1.7vw;
+
+}
+.font-37-90{
+     font-size: 2.4vw;
+
+}
+
+.font-50-52{
+       font-size: 3.5vw;
+
+}
+.font-67-34{
+       font-size:67.34px;
+
+}
+
+.font-89-76{
+       font-size:4.3vw;
+
+}
+
+.font-119-66{
+       font-size:5.8vw;
+
+}
+ }
 
 
 

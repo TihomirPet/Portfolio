@@ -122,8 +122,106 @@
 @media (max-width: 1199.98px) {  }
 
 
+/* Ipad Mini landscape*/
+@media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
+  .project-card {
+  height: 35vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: rgb(255, 255, 255, 0.09);
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+}
+.project-card:hover {
+  height: 35vh;
+  background: rgb(0, 192, 187, 0.08);
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 192, 187, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(0, 192, 187, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.3) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+
+}
+.project-card-image{
+    opacity: 0.79;
+}
+
+}
+/* Ipad Air  landscape*/
+@media only screen and (device-width: 1180px) and (device-height: 820px) and (orientation : landscape) { 
+
+  .project-card {
+  height: 35vh;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: rgb(255, 255, 255, 0.09);
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+}
+.project-card:hover {
+  height: 35vh;
+  background: rgb(0, 192, 187, 0.08);
+  border-image: linear-gradient(
+      180deg,
+      rgba(0, 192, 187, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(0, 192, 187, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(0, 192, 187, 0.3) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+
+
+}
+.project-card-image{
+    opacity: 0.79;
+}
+
+}
+
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
+  .project-card-image{
+    opacity: 0.7;
+}
+.project-card:hover .project-card-image{
+    opacity: 1;
+}
 
  }
 
@@ -168,6 +266,12 @@
     1;
 
 
+}
+.project-card-image{
+    opacity: 0.7;
+}
+.project-card:hover .project-card-image{
+    opacity: 1;
 }
   
  }

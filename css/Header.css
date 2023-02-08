@@ -183,11 +183,11 @@
     border-color 0.15s ease-in-out;
 }
 .header {
-  background-image: url(/images/portfolio_background_warm_headerMobile_Hq.jpg);
+  background-image: url(/images/portfolio_background_warm_headerMobileS_Hq.jpg);
   -webkit-height: 100dvh;
   height: 100vh;
  
-  background-position: -30vw 0vh;
+  background-position: 0vw 0vh;
   background-size: cover;
 }
  }

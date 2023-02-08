@@ -63,7 +63,7 @@
 
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
+@media (max-width: 1179.98px) { 
 
 
 
@@ -73,6 +73,96 @@
 
   
  }
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+
+
+
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) { 
+
+}
+
+
+/* Ipad Mini landscape*/
+@media only screen and (device-width: 1024px) and (device-height: 768px) and (orientation : landscape) { 
+  .profile-images {
+  height: 90vh;
+
+}
+.profile-images-first {
+  background-image: url(/images/_DSC5327.jpg);
+  background-position: -10vw -5vh;
+  background-size: 60vw;
+  height: 90%;
+  border-top-left-radius: 30px;
+}
+.profile-images-second {
+  height: 92.4%;
+}
+.profile-images-second-top {
+  width: 90%;
+  height: 33%;
+  background-image: url(/images/_DSC5327_blue.jpg);
+  background-position: -6vw -3vh;
+  background-size: 37vw;
+}
+.profile-images-second-bottom {
+  height: 64%;
+  width: 75%;
+  background-image: url(/images/_DSC5327_negativ.jpg);
+  background-position: -95vw -20vh;
+  background-size: 59vw;
+}
+}
+
+/* Ipad Air  landscape*/
+@media only screen and (device-width: 1180px) and (device-height: 820px) and (orientation : landscape) { 
+
+
+  .profile-images {
+  height: 90vh;
+
+}
+.profile-images-first {
+  background-image: url(/images/_DSC5327.jpg);
+  background-position: -7vw -5vh;
+  background-size: 56vw;
+  height: 90%;
+  border-top-left-radius: 30px;
+}
+.profile-images-second {
+  height: 92.4%;
+}
+.profile-images-second-top {
+  width: 90%;
+  height: 33%;
+  background-image: url(/images/_DSC5327_blue.jpg);
+  background-position: -5vw -3vh;
+  background-size: 35vw;
+}
+.profile-images-second-bottom {
+  height: 64%;
+  width: 75%;
+  background-image: url(/images/_DSC5327_negativ.jpg);
+  background-position: -90vw -20vh;
+  background-size: 56vw;
+}
+}
+/* Ipad Air  portrait*/
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) { 
+
+
+
+
+
+
+}
+
+ 
 
 
 
