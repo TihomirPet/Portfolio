@@ -45,7 +45,7 @@
   position: relative;
 }
 .nav-holder{
-  height: 7vh;
+  height: 5vh;
   position: fixed;
   z-index: 6;
 }
@@ -132,6 +132,12 @@ background-color: #000001;
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
+  .nav-holder{
+  height: 7vh;
+  position: fixed;
+  z-index: 6;
+}
+  
     .title-Hallo {
   width: 70%;
 }

@@ -2,159 +2,141 @@ html {
   scrollbar-width: none;
 }
 
-@font-face {font-family: "Crystal Sky"; src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot"); src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff") format("woff"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#") format("svg"); } 
-
 @font-face {
-    font-family: 'CrystalDust';
-    src: url('/Fonts/CrystalDust.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Comfortaa Light';
-    src: url('/Fonts/Comfortaa-Light.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Comfortaa Regular';
-    src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Comfortaa Medium';
-    src: url('/Fonts/Comfortaa-Medium.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Comfortaa SemiBold';
-    src: url('/Fonts/Comfortaa-SemiBold.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'ComforterBrushRegular';
-    src: url('/Fonts/ComforterBrush-Regular.ttf') format('truetype');
+  font-family: 'Crystal Sky';
+  src: url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot');
+  src: url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#')
+      format('svg');
 }
 
-
-
-
+@font-face {
+  font-family: 'CrystalDust';
+  src: url('/Fonts/CrystalDust.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa Light';
+  src: url('/Fonts/Comfortaa-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa Regular';
+  src: url('/Fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa Medium';
+  src: url('/Fonts/Comfortaa-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Comfortaa SemiBold';
+  src: url('/Fonts/Comfortaa-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ComforterBrushRegular';
+  src: url('/Fonts/ComforterBrush-Regular.ttf') format('truetype');
+}
 
 .font-ComforterBrush-regular {
-    font-family: 'ComforterBrushRegular';
-
+  font-family: 'ComforterBrushRegular';
 }
 
 .font-Crystal-regular {
-    font-family: 'CrystalDust';
-
+  font-family: 'CrystalDust';
 }
 
-.font-Comfortaa-light{
-    font-family: 'Comfortaa Light';
-  
+.font-Comfortaa-light {
+  font-family: 'Comfortaa Light';
 
-    font-weight: 300;
-  
+  font-weight: 300;
 }
 
-.font-Comfortaa-regular{
-    font-family: 'Comfortaa Regular';
- 
+.font-Comfortaa-regular {
+  font-family: 'Comfortaa Regular';
 
-    font-weight: 400;
-
+  font-weight: 400;
 }
 
-
-
-.font-Comfortaa-medium{
-    font-family: 'Comfortaa Medium';
-
-
+.font-Comfortaa-medium {
+  font-family: 'Comfortaa Medium';
 
   letter-spacing: 0.1vw;
 }
 .font-Comfortaa-semiBold2 {
-    font-family: 'Comfortaa SemiBold';
-
-   
+  font-family: 'Comfortaa SemiBold';
 
   letter-spacing: 0.1vw;
 }
 
-
 /* font-size */
 
-.font-12{
+.font-12 {
   font-size: 0.6vw;
-
 }
-.font-16{
+.font-16 {
   font-size: 0.8vw;
-
 }
-.font-21-33{
+.font-21-33 {
   font-size: 1vw;
-
 }
-.font-28-43{
-    font-size: 1.3vw;
-
+.font-28-43 {
+  font-size: 1.3vw;
 }
-.font-37-90{
-     font-size: 1.9vw;
-
+.font-37-90 {
+  font-size: 1.9vw;
 }
 
-.font-50-52{
-       font-size: 2.5vw;
-
+.font-50-52 {
+  font-size: 2.5vw;
 }
-.font-67-34{
-       font-size:67.34px;
-
+.font-67-34 {
+  font-size: 67.34px;
 }
 
-.font-89-76{
-       font-size:4.3vw;
-
+.font-89-76 {
+  font-size: 4.3vw;
 }
 
-.font-119-66{
-       font-size:5.8vw;
-
+.font-119-66 {
+  font-size: 5.8vw;
 }
-
 
 /* letter-spacing */
 .letter-spacing-01 {
-    letter-spacing: 0.1vw;
+  letter-spacing: 0.1vw;
 }
 .letter-spacing-02 {
-    letter-spacing: 0.2vw;
+  letter-spacing: 0.2vw;
 }
 .letter-spacing-03 {
-    letter-spacing: 0.3vw;
+  letter-spacing: 0.3vw;
 }
 .letter-spacing-04 {
-    letter-spacing: 0.4vw;
+  letter-spacing: 0.4vw;
 }
 
 /* colors */
-.white-transparent-color{
-
-  color: #9E9FA0;
+.white-transparent-color {
+  color: #9e9fa0;
 }
-.seconder-color{
-  color: #C8954F;
-    
+.seconder-color {
+  color: #c8954f;
 }
-.blue-color{
+.blue-color {
   color: rgb(0, 192, 187);
 }
-.orange-color{
+.orange-color {
   color: rgb(247, 105, 0);
 }
-.text-color{
+.text-color {
   color: rgb(250, 236, 215);
 }
 body {
-
-
   font-family: 'Raleway', sans-serif;
 
   font-family: 'Montserrat', sans-serif;
@@ -165,120 +147,99 @@ body {
   height: 100vh;
   background-color: #000001;
 }
-a{
+a {
   text-decoration: none;
 }
-.wrapper{
+.wrapper {
   position: relative;
-}
-.panel{
-  position: absolute;
+} 
+ .panel {
+  position: fixed;
 
   top: 0;
-  width: 100%;
 
+  width: 100%;
 }
 /* // ... { MEDIA Query} */
 
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {  }     
-
+@media (max-width: 1399.98px) {
+}
 
 /* // `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
-
+@media (max-width: 1199.98px) {
+}
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-  .font-12{
-  font-size: 0.9vw;
-
-}
-.font-16{
-  font-size: 1.1vw;
-
-}
-.font-21-33{
-  font-size: 1.3vw;
-
-}
-.font-28-43{
+@media (max-width: 991.98px) {
+  .font-12 {
+    font-size: 0.9vw;
+  }
+  .font-16 {
+    font-size: 1.1vw;
+  }
+  .font-21-33 {
+    font-size: 1.3vw;
+  }
+  .font-28-43 {
     font-size: 1.7vw;
+  }
+  .font-37-90 {
+    font-size: 2.4vw;
+  }
 
+  .font-50-52 {
+    font-size: 3.5vw;
+  }
+  .font-67-34 {
+    font-size: 67.34px;
+  }
+
+  .font-89-76 {
+    font-size: 4.3vw;
+  }
+
+  .font-119-66 {
+    font-size: 5.8vw;
+  }
 }
-.font-37-90{
-     font-size: 2.4vw;
-
-}
-
-.font-50-52{
-       font-size: 3.5vw;
-
-}
-.font-67-34{
-       font-size:67.34px;
-
-}
-
-.font-89-76{
-       font-size:4.3vw;
-
-}
-
-.font-119-66{
-       font-size:5.8vw;
-
-}
- }
-
-
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-.font-12{
-  font-size: 2.3vw;
-
-}
-.font-16{
-  font-size: 2.6vw;
-
-}
-.font-21-33{
-  font-size: 3.5vw;
-
-}
-.font-28-43{
+@media (max-width: 767.98px) {
+  .font-12 {
+    font-size: 2.3vw;
+  }
+  .font-16 {
+    font-size: 2.6vw;
+  }
+  .font-21-33 {
+    font-size: 3.5vw;
+  }
+  .font-28-43 {
     font-size: 3.8vw;
+  }
+  .font-37-90 {
+    font-size: 5.1vw;
+  }
+  .font-50-52 {
+    font-size: 7.2vw;
+  }
+  .font-67-34 {
+    font-size: 70.34px;
+  }
 
+  .font-89-76 {
+    font-size: 8.3vw;
+  }
+
+  .font-119-66 {
+    font-size: 15.8vw;
+  }
 }
-.font-37-90{
-     font-size: 5.1vw;
-
-}
-.font-50-52{
-       font-size: 7.2vw;
-
-}
-.font-67-34{
-       font-size:70.34px;
-
-}
-
-.font-89-76{
-       font-size:8.3vw;
-
-}
-
-.font-119-66{
-       font-size:15.8vw;
-
-} 
-}
-
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-/* .font-12{
+@media (max-width: 575.98px) {
+  /* .font-12{
   font-size: 2vw;
 
 }
@@ -320,8 +281,4 @@ a{
 
 /* // `xs` returns only a ruleset and no media query */
 @media (max-width: 469.98px) {
-
-
-  
 }
-
