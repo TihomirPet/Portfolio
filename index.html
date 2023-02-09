@@ -33,7 +33,7 @@
             <li class="nav-item animateNav">
               <a class="nav-link" href="#02">Profil</a>
             </li>
-       
+
             <li class="nav-item animateNav">
               <a class="nav-link" href="#03">Projekte</a>
             </li>
@@ -46,8 +46,6 @@
     </div>
 
     <div class="wrapper">
-
-      
       <div class="header container-fluid animateBackground" id="01">
         <div class="row">
           <div
@@ -393,12 +391,12 @@
 
       <!--############ container projects end  ############################################-->
 
-
-
       <!--############ container contact start  #########################################-->
-   
+
       <!--############ container contact end  #########################################-->
-          <div class="contact conrainer-fluid d-flex align-items-center justify-content-center " id="05"
+      <div
+        class="contact conrainer-fluid d-flex align-items-center justify-content-center"
+        id="05"
       >
         <div class="row w-100 mt-5">
           <!-- section one start -->
@@ -591,35 +589,28 @@
       gsap.utils.toArray(navlinks).forEach(function (a, i) {
         console.log(a);
         a.addEventListener('click', function (e) {
-      
           gsap.to(window, {
-            duration: 0.1,
-            scrollTo: i*window.innerWidth,
+            duration: 1.2,
+            delay: 0.5,
+            ease: 'Bounce.InOut',
+            scrollTo: i * window.innerWidth,
             overwrite: true,
           });
           e.preventDefault();
         });
       });
 
-
-
-
-
-
-
-// const target = document.querySelectorAll('a[href^="#"]');
-// console.log(target);
-// for (const item of target) {
-// 	item.onclick = function (e) {
-// 		const hash = this.getAttribute("href");
-// 		const elem = document.getElementById(hash.replace("#",""));
-// 		//history.pushState (null, null, hash);
-// 		elem.scrollIntoView({ left: 0, block: 'start', behavior: 'smooth' });
-// 		e.preventDefault();
-// 	}
-// }
-
-
+      // const target = document.querySelectorAll('a[href^="#"]');
+      // console.log(target);
+      // for (const item of target) {
+      // 	item.onclick = function (e) {
+      // 		const hash = this.getAttribute("href");
+      // 		const elem = document.getElementById(hash.replace("#",""));
+      // 		//history.pushState (null, null, hash);
+      // 		elem.scrollIntoView({ left: 0, block: 'start', behavior: 'smooth' });
+      // 		e.preventDefault();
+      // 	}
+      // }
 
       // ###############################
     </script>

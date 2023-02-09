@@ -106,6 +106,15 @@ background-color: #000001;
   display: flex;
   justify-content: center;
 }
+.nav-item :focus{
+  width: 7vw;
+  background-color: rgb(247, 105, 0, 05);
+  border-radius: 3px;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+}
 
 .nav-link {
   display: block;
