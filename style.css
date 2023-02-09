@@ -147,7 +147,7 @@ html {
   color: rgb(0, 192, 187);
 }
 .orange-color{
-  color: #F76900;
+  color: rgb(247, 105, 0);
 }
 .text-color{
   color: rgb(250, 236, 215);
@@ -236,41 +236,41 @@ a{
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 .font-12{
-  font-size: 2.1vw;
+  font-size: 2.3vw;
 
 }
 .font-16{
-  font-size: 2.4vw;
+  font-size: 2.6vw;
 
 }
 .font-21-33{
-  font-size: 3vw;
+  font-size: 3.5vw;
 
 }
 .font-28-43{
-    font-size: 3.3vw;
+    font-size: 3.8vw;
 
 }
 .font-37-90{
-     font-size: 1.9vw;
+     font-size: 5.1vw;
 
 }
 .font-50-52{
-       font-size: 6.9vw;
+       font-size: 7.2vw;
 
 }
 .font-67-34{
-       font-size:67.34px;
+       font-size:70.34px;
 
 }
 
 .font-89-76{
-       font-size:4.3vw;
+       font-size:8.3vw;
 
 }
 
 .font-119-66{
-       font-size:13.8vw;
+       font-size:15.8vw;
 
 } 
 }

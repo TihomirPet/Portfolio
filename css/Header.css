@@ -44,12 +44,22 @@
   width: 50%;
   position: relative;
 }
-.nav {
+.nav-holder{
+  height: 7vh;
   position: fixed;
+  z-index: 6;
+}
+.nav-holder-background{
+  transition: ease-in-out;
+transition-duration: 3s, 1s;
+background-color: #000001;
+}
+.nav {
+
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  padding-top: 1.5vh;
+  padding-top: 1vh;
   margin-bottom: 0;
   list-style: none;
   gap: 1vw;
@@ -62,7 +72,7 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 6px;
-  background: rgb(255, 255, 255, 0.07);
+  background: rgb(0, 192, 187, 0.09);
   border-image: linear-gradient(
       180deg,
       rgba(247, 105, 0, 0.2498249299719888) 0%,
@@ -76,6 +86,8 @@
     )
     1;
 }
+
+
 .nav-item :hover {
   width: 7vw;
   background-color: rgb(247, 105, 0, 05);
@@ -85,15 +97,26 @@
   display: flex;
   justify-content: center;
 }
+.nav-item :visited{
+  width: 7vw;
+  background-color: rgb(247, 105, 0, 05);
+  border-radius: 3px;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+}
+
 .nav-link {
   display: block;
   padding: 0.3rem 2rem;
   color: #ffffff;
-    color: rgb(250, 236, 215);
+    /* color: rgb(250, 236, 215); */
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
+
 
 
 
@@ -134,11 +157,29 @@
 }
 .title-Portfolio {
   position: relative;
-  width: 70%;
-  height: 7.5vh;
+  width: 80%;
+  height: 9.1vh;
+}
+.title-Portfolio-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.title-Portfolio-second {
+  position: absolute;
+  top: -0.2vh;
+  left: 0.2vw;
+  z-index: 4;
+}
+.title-Portfolio-third {
+  position: absolute;
+  top: 0.2vh;
+  left: 0.4vw;
+  z-index: 1;
 }
 .title-Name {
-  width: 70%;
+  width: 80%;
   position: relative;
 }
 

@@ -237,6 +237,21 @@
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+  .projects {
+  height: auto;
+     /* background:radial-gradient(circle at 50% 52%, rgba(96, 41, 0, 1) 0%, rgba(0, 0, 1, 1) 37%, rgba(0, 0, 1, 1) 100%); */
+        /* background:radial-gradient(circle at 50% 52%, rgba(72, 31, 0, 1) 0%, rgba(0, 0, 1, 1) 49%, rgba(0, 0, 1, 1) 100%);
+     background-color: #0c0c0c; */
+       background-image: url(/images/portfolio_background_header.jpg);
+ 
+
+ 
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
   .project-card {
   height: 445h;
   border-width: 1px;
@@ -245,7 +260,7 @@
   background: rgb(255, 255, 255, 0.09);
   border-image: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.2498249299719888) 0%,
       rgba(255, 255, 255, 0.020133053221288555) 0.2%,
       rgba(255, 255, 255, 0.6391806722689075) 10%,
       rgba(255, 255, 255, 0.20220588235294112) 20%,
@@ -276,7 +291,7 @@
 
 }
 .project-card-image{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .project-card:hover .project-card-image{
     opacity: 1;

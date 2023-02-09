@@ -9,10 +9,9 @@ links.forEach((link, index) => {
     linkImages[index].style.transform = 'scale(1, 1)';
   });
   link.addEventListener('mouseleave', (e) => {
-
-link.children[1].style.opacity=0
-  // link.children[1].style.transform=`translate(${-e.clientY -50}px )`
-linkImages[index].style.transform='scale(0.8, 0.8)'
-link.style.zIndex=0
+    link.children[1].style.opacity = 0;
+    // link.children[1].style.transform=`translate(${-e.clientY -50}px )`
+    linkImages[index].style.transform = 'scale(0.8, 0.8)';
+    link.style.zIndex = 0;
   });
 });
