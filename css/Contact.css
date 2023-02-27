@@ -10,11 +10,12 @@
 :root:has(#black-white:checked) {
   --bg-contact: url(/images/portfolio_background_Profile_BW.jpg);
 }
-/* :root:has(#light-blue:checked) {
+:root:has(#light-blue:checked) {
 
-  --bg-header: url(/images/portfolio_background_header_lightB.jpg);
+  --bg-contact: url(/images/portfolio_background_Profile_lightblue.jpg);
 
 }
+/* 
 :root:has(#gray:checked) {
 
   --bg-header: url(/images/portfolio_background_header_warm.jpg);

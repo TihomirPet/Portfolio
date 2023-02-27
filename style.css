@@ -1,6 +1,26 @@
-html {
-  scrollbar-width: none;
+:root {
+  --cursorX: 50%;
+  --cursorY: 50%;
+--bg-body:  #000001;
 }
+
+:root:has(#blue:checked) {
+
+}
+:root:has(#black-white:checked) {
+
+}
+:root:has(#light-blue:checked) {
+
+--bg-body:#1CCECA;
+
+}
+
+
+
+
+
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -198,7 +218,7 @@ html {
   color: #9e9fa0;
 }
 .seconder-color {
-  color: #c8954f;
+  color: rgb(200, 149, 79);
 }
 .blue-color {
   color: rgb(0, 192, 187);
@@ -218,7 +238,7 @@ body {
   overscroll-behavior: none;
   overflow-x: hidden;
   height: 100vh;
-  background-color: #000001;
+  background-color:var(--bg-body);
 }
 a {
   text-decoration: none;

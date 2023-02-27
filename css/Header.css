@@ -2,6 +2,7 @@
   --cursorX: 50%;
   --cursorY: 50%;
   --bg-header: url(/images/portfolio_background_warm_header_Hq.jpg);
+  --nav-item:  rgb(0, 192, 187, 0.09);
 
 }
 
@@ -13,7 +14,7 @@
 :root:has(#light-blue:checked) {
 
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
-
+ --nav-item:   rgba(209, 197, 181, 0.5);
 }
 :root:has(#gray:checked) {
 
@@ -82,7 +83,7 @@
 .nav-holder-background{
   transition: ease-in-out;
 transition-duration: 3s, 1s;
-background-color: #000001;
+background-color: transparent;
 }
 .nav {
 
@@ -102,7 +103,7 @@ background-color: #000001;
   border-width: 1px;
   border-style: solid;
   border-radius: 6px;
-  background: rgb(0, 192, 187, 0.09);
+  background: var( --nav-item);
   border-image: linear-gradient(
       180deg,
       rgba(247, 105, 0, 0.2498249299719888) 0%,

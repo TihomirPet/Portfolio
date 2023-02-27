@@ -2,6 +2,7 @@
   --cursorX: 50%;
   --cursorY: 50%;
   --bg-projects: url(/images/portfolio_background_Projects.jpg);
+  --bg-cart:  rgba(247, 202, 3, 0.09);
 }
 
 :root:has(#blue:checked) {
@@ -9,6 +10,10 @@
 }
 :root:has(#black-white:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_BW.jpg);
+}
+:root:has(#light-blue:checked) {
+  --bg-projects: url(/images/portfolio_background_Profile_lightblue.jpg);
+    --bg-cart:  rgba(252, 252, 252, 0.69);
 }
 /* :root:has(#light-blue:checked) {
 
@@ -81,7 +86,7 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 9px;
-  background: rgba(247, 202, 3, 0.09);
+  background: var(--bg-cart);
   border-image: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.3498249299719888) 0%,
