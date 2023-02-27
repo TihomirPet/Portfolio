@@ -7,6 +7,9 @@
 :root:has(#blue:checked) {
   --bg-contact: url(/images/portfolio_background_Contact_blue.jpg);
 }
+:root:has(#black-white:checked) {
+  --bg-contact: url(/images/portfolio_background_Profile_BW.jpg);
+}
 /* :root:has(#light-blue:checked) {
 
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);

@@ -7,6 +7,9 @@
 :root:has(#blue:checked) {
   --bg-projects: url(/images/portfolio_background_Projects_blue.jpg);
 }
+:root:has(#black-white:checked) {
+  --bg-projects: url(/images/portfolio_background_Profile_BW.jpg);
+}
 /* :root:has(#light-blue:checked) {
 
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
@@ -74,11 +77,11 @@
   margin-top: 10vh;
 }
 .project-card {
-  height: 48vh;
+  height: 46vh;
   border-width: 1px;
   border-style: solid;
   border-radius: 9px;
-  background: rgba(255, 255, 255, 0.09);
+  background: rgba(247, 202, 3, 0.09);
   border-image: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.3498249299719888) 0%,
@@ -93,6 +96,7 @@
     1;
 }
 .project-card:hover {
+    /* height: 48vh; */
   background: rgb(0, 192, 187, 0.08);
   border-image: linear-gradient(
       180deg,
@@ -107,21 +111,131 @@
     )
     1;
 }
+.img_one{
+  background-image: url(/images/languages_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_one{
+  background-image: url(/images/languages.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.img_two{
+  background-image: url(/images/Nous_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_two{
+  background-image: url(/images/Nous.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.img_three{
+  background-image: url(/images/Ulamove_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_three{
+  background-image: url(/images/Ulamove.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.img_four{
+  background-image: url(/images/Artpage_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_four{
+  background-image: url(/images/Artpage.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.img_five{
+  background-image: url(/images/Frame\ 2_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_five{
+  background-image: url(/images/Fire2.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.img_six{
+  background-image: url(/images/Vinture_BW.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
+.project-card:hover .img_six{
+  background-image: url(/images/vinture.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 27vh;
+
+}
 .project-card-title {
   height: 8vh;
 }
-.project-card-image {
-  opacity: 0.6;
+/* .project-card-image {
+  opacity: 0.8;
 }
 .project-card:hover .project-card-image {
   opacity: 1;
-}
+} */
 .projekt-card-link {
-  color: rgb(133, 131, 128);
+  color: rgb(128, 133, 133);
 
   text-decoration: none;
 }
-.projekt-card-link:hover {
+
+
+.projekt-card-link :hover  {
   color: #00c0bb;
   color: rgb(250, 236, 215);
   text-decoration: none;

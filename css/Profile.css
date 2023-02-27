@@ -3,6 +3,9 @@
   --cursorX: 50%;
   --cursorY: 50%;
   --bg-profile: url(/images/portfolio_background_Profile.jpg);
+  --bg-profile_imgFirst: url(/images/_DSC5327.jpg);
+    --bg-profile_imgSecond: url(/images/_DSC5327_blue.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ.jpg);
 }
 
 :root:has(#blue:checked) {
@@ -10,6 +13,9 @@
 }
 :root:has(#black-white:checked) {
   --bg-profile: url(/images/portfolio_background_Profile_BW.jpg );
+  --bg-profile_imgFirst: url(/images/_DSC5327_white.jpg);
+  --bg-profile_imgSecond: url(/images/_DSC5327_blue_BW.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ_BW.jpg);
 }
 /* :root:has(#light-blue:checked) {
 
@@ -63,8 +69,8 @@
   gap: 1.2vw;
 }
 .profile-images-first {
-  background-image: url(/images/_DSC5327.jpg);
-  background-position: -3vw -7vh;
+  background-image:var(--bg-profile_imgFirst);
+  background-position: -4vw -7vh;
   background-size: 46vw;
   height: 90%;
   border-top-left-radius: 30px;
@@ -75,14 +81,14 @@
 .profile-images-second-top {
   width: 90%;
   height: 45%;
-  background-image: url(/images/_DSC5327_blue.jpg);
+  background-image: var(--bg-profile_imgSecond);
   background-position: -5vw -3vh;
   background-size: 35vw;
 }
 .profile-images-second-bottom {
   height: 52.4%;
   width: 75%;
-  background-image: url(/images/_DSC5327_negativ.jpg);
+  background-image:var(--bg-profile_imgThird);
   background-position: -80vw -40vh;
   background-size: 49vw;
 }
