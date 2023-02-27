@@ -1,6 +1,27 @@
+:root {
+  --cursorX: 50%;
+  --cursorY: 50%;
+  --bg-contact: url(/images/portfolio_background_Profile.jpg);
+}
+
+:root:has(#blue:checked) {
+  --bg-contact: url(/images/portfolio_background_Contact_blue.jpg);
+}
+/* :root:has(#light-blue:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_lightB.jpg);
+
+}
+:root:has(#gray:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_warm.jpg);
+
+} */
+
+
 .contact {
      /* background:radial-gradient(circle at 18% 53%, rgba(0, 113, 110, 1) 0%, rgba(0, 0, 1, 1) 29%, rgba(0, 0, 1, 1) 100%); */
-     background-image: url(/images/portfolio_background_Profile.jpg);
+     background-image:var(--bg-contact);
  background-position: top;
   height: 100vh;
 }

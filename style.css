@@ -1,6 +1,79 @@
 html {
   scrollbar-width: none;
 }
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.color-picker > fieldset {
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.1);
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+  padding: 1rem 1.5rem;
+
+
+  
+}
+
+.color-picker input[type="radio"] {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: 2px solid var(--radio-color, currentColor);
+  outline-offset: 2px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.color-picker input[type="radio"]:checked {
+  background-color: var(--radio-color);
+}
+
+.color-picker input[type="radio"]#black-white {
+  --radio-color: rgb(255, 254, 254);
+}
+.color-picker input[type="radio"]#gray {
+  --radio-color: rgb(187, 171, 156);
+}
+.color-picker input[type="radio"]#blue {
+  --radio-color: #003534;
+}
+.color-picker input[type="radio"]#light-blue {
+  --radio-color: rgb(2, 252, 252);
+}
+.color-picker input[type="radio"]#dark {
+  --radio-color: #4A1D00;
+}
+
+
+
+
+
+
+
 
 @font-face {
   font-family: 'Crystal Sky';

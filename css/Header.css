@@ -1,9 +1,39 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
+  --bg-header: url(/images/portfolio_background_warm_header_Hq.jpg);
+
 }
+
+:root:has(#blue:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_blue.jpg);
+
+}
+:root:has(#light-blue:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_lightB.jpg);
+
+}
+:root:has(#gray:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_warm.jpg);
+
+}
+:root:has(#black-white:checked) {
+
+  --bg-header: url(/images/portfolio_background_header_BW.jpg);
+
+}
+
+
+
+
+
+
+
 .header {
-  background-image: url(/images/portfolio_background_warm_header_Hq.jpg);
+  background-image: var(--bg-header);
   -webkit-height: 100dvh;
   height: 100vh;
  
@@ -126,7 +156,14 @@ background-color: #000001;
     border-color 0.15s ease-in-out;
 }
 
+.fieldset-holder{
+ width: 8vw;
+top:40%;
+right: 0;
+  position: fixed;
+  z-index: 6;
 
+}
 
 
 /* // ... { MEDIA Query} */
