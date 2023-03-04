@@ -3,9 +3,9 @@
   --cursorY: 50%;
   --bg-header: url(/images/portfolio_background_warm_header_Hq.jpg);
   --nav-item: rgb(0, 192, 187, 0.09);
- --nav-item-hover:  rgb(247, 105, 0);
- --nav-item-visited-color: rgb(255, 255, 255);
- --nav-holder-background 
+  --nav-item-hover: rgb(247, 105, 0);
+  --nav-item-visited-color: rgb(255, 255, 255);
+  --nav-holder-background: #000001;
 }
 
 :root:has(#blue:checked) {
@@ -14,12 +14,14 @@
 :root:has(#light-blue:checked) {
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
   --nav-item: rgba(209, 197, 181, 0.5);
-   --nav-item-hover:#9FA0A2;
+  --nav-item-hover: #9fa0a2;
+  --nav-holder-background: #1CCECA;
 }
 :root:has(#gray:checked) {
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
-   --nav-item-visited-color:  #46474C;
-    --nav-item:  rgba(255, 255, 255, 0.29);
+  --nav-item-visited-color: #46474c;
+  --nav-item: rgba(255, 255, 255, 0.29);
+  --nav-holder-background: #d2c0b6;
 }
 :root:has(#black-white:checked) {
   --bg-header: url(/images/portfolio_background_header_BW.jpg);
@@ -76,7 +78,7 @@
   transition: ease-in-out;
   transition-duration: 3s, 1s;
   background-color: transparent;
-  background-color: black;
+  background-color: var(--nav-holder-background);
 }
 .nav {
   display: flex;
@@ -115,16 +117,15 @@
   width: 7vw;
 
   border-radius: 3px;
-    color: var(--nav-item-visited-color);
+  color: var(--nav-item-visited-color);
 
   display: flex;
   justify-content: center;
 }
 .nav-item :focus {
   width: 7vw;
- 
+
   border-radius: 3px;
- 
 
   display: flex;
   justify-content: center;
@@ -137,7 +138,7 @@
   border-radius: 6px;
   color: #ffffff;
   /* color: rgb(250, 236, 215); */
-  background-color: var( --nav-item-hover);
+  background-color: var(--nav-item-hover);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -243,7 +244,7 @@
     display: block;
     padding: 0.3rem 2rem;
 
-     text-decoration: none;
+    text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out;
   }

@@ -3,6 +3,7 @@
   --cursorY: 50%;
 --bg-body:  #000001;
 --text-color:  rgb(250, 236, 215);
+--second-color:rgb(200, 149, 79);
 }
 :root:has(#gray:checked) {
 --text-color:  #46474C;
@@ -11,8 +12,8 @@
 :root:has(#blue:checked) {
 
 }
-:root:has(#black-white:checked) {
-
+:root:has(#gray:checked) {
+--second-color:#9FA0A2;
 }
 :root:has(#light-blue:checked) {
 
@@ -222,7 +223,7 @@
   color: #9e9fa0;
 }
 .seconder-color {
-  color: rgb(200, 149, 79);
+  color: var(--second-color);
 }
 .blue-color {
   color: rgb(0, 192, 187);
