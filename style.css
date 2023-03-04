@@ -2,8 +2,12 @@
   --cursorX: 50%;
   --cursorY: 50%;
 --bg-body:  #000001;
+--text-color:  rgb(250, 236, 215);
 }
-
+:root:has(#gray:checked) {
+--text-color:  #46474C;
+--bg-body:  #D2C0B6;
+}
 :root:has(#blue:checked) {
 
 }
@@ -227,7 +231,7 @@
   color: rgb(247, 105, 0);
 }
 .text-color {
-  color: rgb(250, 236, 215);
+  color:var(--text-color);
 }
 body {
   font-family: 'Raleway', sans-serif;

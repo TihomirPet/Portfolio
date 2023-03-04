@@ -3,6 +3,7 @@
   --cursorY: 50%;
   --bg-projects: url(/images/portfolio_background_Projects.jpg);
   --bg-cart:  rgba(247, 202, 3, 0.09);
+  --project-card-bg-hover: rgb(0, 192, 187, 0.08);
 }
 
 :root:has(#blue:checked) {
@@ -19,12 +20,13 @@
 
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
 
-}
+}*/
 :root:has(#gray:checked) {
 
-  --bg-header: url(/images/portfolio_background_header_warm.jpg);
-
-} */
+  --bg-projects: url(/images/portfolio_background_Profile_gray.jpg);
+    --bg-cart:  rgba(252, 252, 252, 0.69);
+      --project-card-bg-hover: rgb(70, 71, 76,0.2);
+} 
 
 .projects {
   height: auto;
@@ -102,7 +104,8 @@
 }
 .project-card:hover {
     /* height: 48vh; */
-  background: rgb(0, 192, 187, 0.08);
+  background: var(--project-card-bg-hover);
+ 
   border-image: linear-gradient(
       180deg,
       rgba(0, 192, 187, 0.2498249299719888) 0%,
@@ -115,6 +118,8 @@
       rgba(255, 255, 255, 0.0945588235294118) 100%
     )
     1;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 .img_one{
   background-image: url(/images/languages_BW.jpg);
