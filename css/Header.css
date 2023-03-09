@@ -6,6 +6,7 @@
   --nav-item-hover: rgb(247, 105, 0);
   --nav-item-visited-color: rgb(255, 255, 255);
   --nav-holder-background: #000001;
+  --nav-link-color:rgb(255, 255, 255);
 }
 
 :root:has(#blue:checked) {
@@ -21,7 +22,8 @@
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
   --nav-item-visited-color: #46474c;
   --nav-item: rgba(255, 255, 255, 0.29);
-  --nav-holder-background: #d2c0b6;
+  --nav-holder-background: #EBE5DD;
+    --nav-link-color:#46474c;
 }
 :root:has(#black-white:checked) {
   --bg-header: url(/images/portfolio_background_header_BW.jpg);
@@ -129,6 +131,9 @@
 
   display: flex;
   justify-content: center;
+}
+.nav-link{
+  color:var( --nav-link-color);
 }
 
 .nav-item:hover .nav-link {

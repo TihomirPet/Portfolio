@@ -7,7 +7,7 @@
 }
 :root:has(#gray:checked) {
 --text-color:  #46474C;
---bg-body:  #D2C0B6;
+--bg-body:  #EBE5DD;
 }
 :root:has(#blue:checked) {
 

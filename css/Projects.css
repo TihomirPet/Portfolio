@@ -27,7 +27,10 @@
     --bg-cart:  rgba(252, 252, 252, 0.69);
       --project-card-bg-hover: rgb(70, 71, 76,0.2);
 } 
-
+.inputCart{
+  border: none;
+  background-color:transparent;
+}
 .projects {
   height: auto;
 
@@ -78,10 +81,12 @@
 }
 
 .projects-cards-wrapper {
+  width: 100%;
 }
 .projects-cards-row {
   gap: 1vw;
-  margin-top: 10vh;
+
+
 }
 .project-card {
   height: 46vh;
