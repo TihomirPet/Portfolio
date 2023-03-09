@@ -2,7 +2,7 @@
   --cursorX: 50%;
   --cursorY: 50%;
   --bg-projects: url(/images/portfolio_background_Projects.jpg);
-  --bg-cart:  rgba(247, 202, 3, 0.09);
+  --bg-cart: rgba(247, 202, 3, 0.09);
   --project-card-bg-hover: rgb(0, 192, 187, 0.08);
 }
 
@@ -14,7 +14,7 @@
 }
 :root:has(#light-blue:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_lightblue.jpg);
-    --bg-cart:  rgba(252, 252, 252, 0.69);
+  --bg-cart: rgba(252, 252, 252, 0.69);
 }
 /* :root:has(#light-blue:checked) {
 
@@ -22,15 +22,11 @@
 
 }*/
 :root:has(#gray:checked) {
-
   --bg-projects: url(/images/portfolio_background_Profile_gray.jpg);
-    --bg-cart:  rgba(252, 252, 252, 0.69);
-      --project-card-bg-hover: rgb(70, 71, 76,0.2);
-} 
-.inputCart{
-  border: none;
-  background-color:transparent;
+  --bg-cart: rgba(252, 252, 252, 0.69);
+  --project-card-bg-hover: rgb(70, 71, 76, 0.2);
 }
+
 .projects {
   height: auto;
 
@@ -85,11 +81,10 @@
 }
 .projects-cards-row {
   gap: 1vw;
-
-
 }
 .project-card {
   height: 46vh;
+  /* width: 24.4vw; */
   border-width: 1px;
   border-style: solid;
   border-radius: 9px;
@@ -108,9 +103,9 @@
     1;
 }
 .project-card:hover {
-    /* height: 48vh; */
+  /* height: 48vh; */
   background: var(--project-card-bg-hover);
- 
+
   border-image: linear-gradient(
       180deg,
       rgba(0, 192, 187, 0.2498249299719888) 0%,
@@ -123,117 +118,21 @@
       rgba(255, 255, 255, 0.0945588235294118) 100%
     )
     1;
-      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
-.img_one{
-  background-image: url(/images/languages_BW.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
+.inputCart {
+  border: none;
+  background-color: transparent;
+  color: rgb(128, 133, 133);
+  width: 100%;
 }
-.project-card:hover .img_one{
-  background-image: url(/images/languages.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
+.project-card:hover .inputCart {
+  border: none;
+  background-color: transparent;
+  color: rgb(250, 236, 215);
 }
-.img_two{
-  background-image: url(/images/Nous_BW.jpg);
 
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.project-card:hover .img_two{
-  background-image: url(/images/Nous.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.img_three{
-  background-image: url(/images/Ulamove_BW.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.project-card:hover .img_three{
-  background-image: url(/images/Ulamove.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.img_four{
-  background-image: url(/images/Artpage_BW.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.project-card:hover .img_four{
-  background-image: url(/images/Artpage.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.img_five{
-  background-image: url(/images/Frame\ 2_BW.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.project-card:hover .img_five{
-  background-image: url(/images/Fire2.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.img_six{
-  background-image: url(/images/Vinture_BW.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
-.project-card:hover .img_six{
-  background-image: url(/images/vinture.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 27vh;
-
-}
 .project-card-title {
   height: 8vh;
 }
@@ -249,8 +148,7 @@
   text-decoration: none;
 }
 
-
-.projekt-card-link :hover  {
+.projekt-card-link :hover {
   color: #00c0bb;
   color: rgb(250, 236, 215);
   text-decoration: none;
@@ -373,6 +271,7 @@
   }
   .project-card {
     height: 445h;
+
     border-width: 1px;
     border-style: solid;
     border-radius: 9px;

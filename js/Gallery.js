@@ -18,11 +18,11 @@ async function detailGallery() {
     (element) =>
       `
 
+   <div class="col-12 col-md-3 project-card">
+    <form method="get" action="/pages/detail.html"    >
 
-    <form method="get" action="/pages/detail.html" >
 
-
-     <div class="col-md-3 project-card">
+  
               <button
                 class="projekt-card-link btn"
            
@@ -39,8 +39,8 @@ async function detailGallery() {
                   <div class="col-12 project-card-image ">
                     <img src="images/${element.imgUrl}" alt="Sprachen" width="100%" /> 
                   </div>
-                  <div class="col-12 pt-4 ps-3">
-                    <h4 class="font-Comfortaa-light font-21-33">
+                  <div class="col-12 pt-4 ps-4 ps-md-4 d-flex flex-column align-items-start ">
+                    <h4 class="font-Comfortaa-light font-21-33 ">
                    ${element.title}
                     </h4>
                     <p class="font-Comfortaa-light font-12 mt-2">
@@ -49,12 +49,12 @@ async function detailGallery() {
                   </div>
                 </div>
               </button>
-            </div>
+          
     
 
    </form>
     
-
+  </div>
 
      `
   )}
