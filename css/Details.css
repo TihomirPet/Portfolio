@@ -1,27 +1,62 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
---bg-body:  #000001;
---text-color:  rgb(250, 236, 215);
---second-color:rgb(200, 149, 79);
+  --bg-body: #000001;
+  --text-color: rgb(250, 236, 215);
+  --second-color: rgb(200, 149, 79);
 }
 :root:has(#gray:checked) {
---text-color:  #46474C;
---bg-body:  #EBE5DD;
+  --text-color: #46474c;
+  --bg-body: #ebe5dd;
 }
 :root:has(#blue:checked) {
-
 }
 :root:has(#gray:checked) {
---second-color:#9FA0A2;
+  --second-color: #9fa0a2;
 }
 :root:has(#light-blue:checked) {
+  --bg-body: #1cceca;
+}
+/* .detail-card-image-gradiant {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 115vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0) 34%,
+    rgba(255, 255, 255, 0) 44%,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(0, 0, 1, 1) 100%
+  );
+} */
 
---bg-body:#1CCECA;
-
+.wrapper-details {
+  position: relative;
+  background-color: var(--bg-body);
+  height: auto;
 }
 
-.wrapper-details{
-    background-color: var(--bg-body);
-    height: auto;
+/* .details-title{
+    height: 50vh;
 }
+.details-colour-palette{
+       height: 30vh; 
+} */
+.details-fonts {
+  height: 50vh;
+}
+/* .my-img img:last-child {
+  display: none;
+}
+.my-img:hover img:last-child {
+  display: block;
+}
+.my-img:hover img:first-child {
+  display: none;
+} */
+
+

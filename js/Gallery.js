@@ -26,7 +26,7 @@ async function detailGallery() {
                  
                     <input  class="font-37-90 font-Comfortaa-light letter-spacing-02 inputCart" type="text" name="id"  value="${element.id}"/>
                   </div>
-                   <div class="col-12 project-card-image ">
+                   <div class="col-12 project-card-image ps-0 pe-0">
                     <img src="images/${element.imgUrl}" alt="Sprachen" width="100%" /> 
                    </div>
                    <div class="col-12 pt-4 ps-4 ps-md-4 d-flex flex-column align-items-start ">

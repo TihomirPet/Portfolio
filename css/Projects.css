@@ -24,7 +24,9 @@
 :root:has(#gray:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_gray.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
-  --project-card-bg-hover: rgb(70, 71, 76, 0.2);
+  /* --bg-cart: rgba(248, 152, 8, 0.69); */
+  /* --project-card-bg-hover: rgb(70, 71, 76, 0.2); */
+  --project-card-bg-hover: rgb(0, 192, 187, 0.9);
 }
 
 .projects {
@@ -125,7 +127,7 @@
   border: none;
   background-color: transparent;
   color: rgb(128, 133, 133);
-  width: 100%;
+  width: 10%;
 }
 .project-card:hover .inputCart {
   border: none;
