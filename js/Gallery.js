@@ -18,43 +18,29 @@ async function detailGallery() {
     (element) =>
       `
 
-   <div class="col-12 col-md-3 project-card">
-    <form method="get" action="/pages/detail.html"    >
-
-
-  
-              <button
-                class="projekt-card-link btn"
-           
-                target="blank"
-                 type="submit"
-              >
-                <div class="row">
-                  <div
-                    class="col-12 project-card-title d-flex align-items-center ps-4"
-                  >
+       <div class="col-12 col-md-3 project-card">
+           <form method="get" action="/pages/detail.html" >
+             <button class="projekt-card-link btn"  type="submit" >
+               <div class="row">
+                  <div class="col-12 project-card-title d-flex align-items-center ps-4">
                  
-             <input  class="font-37-90 font-Comfortaa-light letter-spacing-02 inputCart" type="text" name="id"  value="${element.id}"/>
+                    <input  class="font-37-90 font-Comfortaa-light letter-spacing-02 inputCart" type="text" name="id"  value="${element.id}"/>
                   </div>
-                  <div class="col-12 project-card-image ">
+                   <div class="col-12 project-card-image ">
                     <img src="images/${element.imgUrl}" alt="Sprachen" width="100%" /> 
-                  </div>
-                  <div class="col-12 pt-4 ps-4 ps-md-4 d-flex flex-column align-items-start ">
+                   </div>
+                   <div class="col-12 pt-4 ps-4 ps-md-4 d-flex flex-column align-items-start ">
                     <h4 class="font-Comfortaa-light font-21-33 ">
-                   ${element.title}
-                    </h4>
+                      ${element.title}
+                     </h4>
                     <p class="font-Comfortaa-light font-12 mt-2">
-                   ${element.description}
+                      ${element.description}
                     </p>
                   </div>
                 </div>
               </button>
-          
-    
-
-   </form>
-    
-  </div>
+           </form>
+     </div>
 
      `
   )}

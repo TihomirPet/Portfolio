@@ -26,10 +26,18 @@ async function readGallery() {
   ${element.detail.map(
     (el) =>
       `
+    <div class="col-12 project-card-image">
+       <img src="/images/${el.imgUrl}" alt="Sprachen" width="100%" />
+    </div>
+
+    <div class="container-fluid">
+      <p>
+        ${el.content}
+      </p>
+    </div>
+ 
 
    
- 
-<p>${el.content}</p>
      `
   )}
   

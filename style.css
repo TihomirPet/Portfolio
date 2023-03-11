@@ -243,13 +243,18 @@ body {
   overscroll-behavior: none;
   overflow-x: hidden;
   height: 100vh;
-  background-color:var(--bg-body);
+
 }
 a {
   text-decoration: none;
 }
 .wrapper {
   position: relative;
+    background-color:var(--bg-body);
+} 
+.wrapper-details {
+  position: relative;
+    background-color:var(--bg-body);
 } 
  .panel {
   position: fixed;
