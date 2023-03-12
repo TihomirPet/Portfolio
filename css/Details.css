@@ -15,7 +15,8 @@
   --second-color: #9fa0a2;
 }
 :root:has(#light-blue:checked) {
-  --bg-body: #1cceca;
+  /* --bg-body: #1cceca; */
+  --bg-body:#DFE9EA;
 }
 /* .detail-card-image-gradiant {
   position: absolute;

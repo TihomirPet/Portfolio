@@ -19,8 +19,8 @@
 :root:has(#light-blue:checked) {
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
   --nav-item: rgba(209, 197, 181, 0.5);
-  --nav-item-hover: #9fa0a2;
-  --nav-holder-background: #1CCECA;
+  --nav-item-hover: #1CCECA;
+  --nav-holder-background: #DFE9EA;
 }
 :root:has(#gray:checked) {
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
@@ -31,7 +31,11 @@
     --nav-link-color:#46474c;
 }
 :root:has(#black-white:checked) {
-  --bg-header: url(/images/portfolio_background_header_BW.jpg);
+  --bg-header: url(/images/portfolio_background_header_Y.jpg);
+    --nav-holder-background: #F8E7D5;
+    /* --nav-item: rgb(194, 84, 0,0.3); */
+    --nav-item-hover: #1CCECA;
+    --nav-item: rgb(28, 206, 202,0.2);
 }
 
 .header {

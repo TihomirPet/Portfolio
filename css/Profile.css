@@ -12,16 +12,16 @@
   --bg-profile: url(    /images/portfolio_background_Profile_blueP.jpg);
 }
 :root:has(#black-white:checked) {
-  --bg-profile: url(/images/portfolio_background_Profile_BW.jpg );
+  --bg-profile: url(/images/portfolio_background_Profile_Y.jpg );
   --bg-profile_imgFirst: url(/images/_DSC5327_white.jpg);
   --bg-profile_imgSecond: url(/images/_DSC5327_blue_BW.jpg);
     --bg-profile_imgThird: url(/images/_DSC5327_negativ_BW.jpg);
 }
 :root:has(#light-blue:checked) {
 
-  --bg-profile: url(/images/portfolio_background_Profile_lightblue.jpg);
-    --bg-profile_imgFirst: url(/images/_DSC5327_white.jpg);
-  --bg-profile_imgSecond: url(/images/_DSC5327_blue_BW.jpg);
+  --bg-profile: url(/images/portfolio_background_Profile_lightblueW.jpg);
+    /* --bg-profile_imgFirst: url(/images/_DSC5327_white.jpg); */
+  /* --bg-profile_imgSecond: url(/images/_DSC5327_blue_BW.jpg); */
     --bg-profile_imgThird: url(/images/_DSC5327_negativ_BW.jpg);
 
 }

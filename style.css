@@ -12,14 +12,22 @@
 :root:has(#blue:checked) {
 --bg-body:  #16001E;
 
+
 }
 :root:has(#gray:checked) {
 --second-color:#9FA0A2;
 }
 :root:has(#light-blue:checked) {
 
---bg-body:#1CCECA;
+--bg-body:#DFE9EA;
+--text-color:  #46474C;
 
+}
+:root:has(#black-white:checked) {
+
+--bg-body:#F8E7D5;
+--second-color:#46474C;
+--text-color:  #46474C;
 }
 
 
@@ -230,7 +238,7 @@
   color: rgb(0, 192, 187);
 }
 .orange-color {
-  color: rgb(247, 105, 0);
+  color: #f76900;
 }
 .text-color {
   color:var(--text-color);

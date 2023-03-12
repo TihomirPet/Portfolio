@@ -4,17 +4,26 @@
   --bg-projects: url(/images/portfolio_background_Projects.jpg);
   --bg-cart: rgba(247, 202, 3, 0.09);
   --project-card-bg-hover: rgb(0, 192, 187, 0.08);
+  --projects-title-col:rgb(250, 236, 215);
+  --projects-title-col-bg:rgba(247, 202, 3, 0.09); 
 }
 
 :root:has(#blue:checked) {
   --bg-projects: url(/images/portfolio_background_Projects_blueP.jpg);
 }
 :root:has(#black-white:checked) {
-  --bg-projects: url(/images/portfolio_background_Profile_BW.jpg);
+  --bg-projects: url(/images/portfolio_background_Profile_Y.jpg);
+  --bg-cart: rgba(252, 252, 252, 0.69);
+  --project-card-bg-hover: rgb(0, 192, 187, 0.9);
+   --projects-title-col-bg:rgba(252, 252, 252, 0.69); 
+         --projects-title-col: rgb(128, 133, 133);
 }
 :root:has(#light-blue:checked) {
-  --bg-projects: url(/images/portfolio_background_Profile_lightblue.jpg);
-  --bg-cart: rgba(252, 252, 252, 0.69);
+  --bg-projects: url(/images/portfolio_background_Profile_lightblueW.jpg);
+  --bg-cart: rgba(247, 105, 0, 0.1);
+  --project-card-bg-hover: rgb(0, 192, 187, 0.5);
+      --projects-title-col: rgb(128, 133, 133);
+        --projects-title-col-bg:rgba(247, 105, 0, 0.1); 
 }
 /* :root:has(#light-blue:checked) {
 
@@ -24,9 +33,10 @@
 :root:has(#gray:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_gray.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
-  /* --bg-cart: rgba(248, 152, 8, 0.69); */
-  /* --project-card-bg-hover: rgb(70, 71, 76, 0.2); */
+  --projects-title-col-bg:rgba(252, 252, 252, 0.69); 
   --project-card-bg-hover: rgb(0, 192, 187, 0.9);
+    --projects-title-col: rgb(128, 133, 133);
+ 
 }
 
 .projects {
@@ -47,13 +57,30 @@
 .projects-title-col {
   position: relative;
   height: 6vh;
-  background-color: #f76900;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  background: var(  --projects-title-col-bg);
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+  
 }
 .projects-title-first {
   position: absolute;
   top: 25%;
   left: 20%;
   z-index: 5;
+  color: var(--projects-title-col);
 }
 .projects-title-second {
   position: absolute;
