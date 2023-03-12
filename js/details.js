@@ -51,7 +51,7 @@ console.log(url);
           <!-- container title end -->
           <div class="col-5"></div>
           <div class="col-6 details-text mb-5">
-            <p   ${el.content}
+            <p class="font-Comfortaa-light font-16 w-75">  ${el.content}
             </p>
           </div>
         </div>

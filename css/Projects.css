@@ -7,7 +7,7 @@
 }
 
 :root:has(#blue:checked) {
-  --bg-projects: url(/images/portfolio_background_Projects_blue.jpg);
+  --bg-projects: url(/images/portfolio_background_Projects_blueP.jpg);
 }
 :root:has(#black-white:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_BW.jpg);

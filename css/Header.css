@@ -7,10 +7,14 @@
   --nav-item-visited-color: rgb(255, 255, 255);
   --nav-holder-background: #000001;
   --nav-link-color:rgb(255, 255, 255);
+   --title-second: #1CCECA;
+   --title-thitd: #f76900;
 }
 
 :root:has(#blue:checked) {
-  --bg-header: url(/images/portfolio_background_header_blue.jpg);
+  --bg-header: url(/images/portfolio_background_header_blueP.jpg);
+    --nav-holder-background:   #16001E;
+
 }
 :root:has(#light-blue:checked) {
   --bg-header: url(/images/portfolio_background_header_lightB.jpg);
@@ -23,6 +27,7 @@
   --nav-item-visited-color: #46474c;
   --nav-item: rgba(255, 255, 255, 0.29);
   --nav-holder-background: #EBE5DD;
+    --nav-item-hover: #1CCECA;
     --nav-link-color:#46474c;
 }
 :root:has(#black-white:checked) {
@@ -54,18 +59,24 @@
   top: 0;
   left: 0;
   z-index: 5;
+ 
 }
 .title-Portfolio-second {
   position: absolute;
   top: -0.4vh;
   left: 0.2vw;
   z-index: 4;
+   color: var(--title-second);
+   /* text-shadow:0 0 0.25em hsl(0 0% 100% /0.5),0 0 0.1em var(--title-second); */
 }
 .title-Portfolio-third {
   position: absolute;
   top: 0.3vh;
   left: 0.4vw;
   z-index: 1;
+
+     color: var(  --title-thitd);
+   /* text-shadow:0 0 0.25em hsl(0 0% 100% /0.5),0 0 0.1em var(  --title-thitd); */
 }
 .title-Name {
   width: 50%;

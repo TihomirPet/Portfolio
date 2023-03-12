@@ -9,7 +9,7 @@
 }
 
 :root:has(#blue:checked) {
-  --bg-profile: url(    /images/portfolio_background_Profile_blue.jpg);
+  --bg-profile: url(    /images/portfolio_background_Profile_blueP.jpg);
 }
 :root:has(#black-white:checked) {
   --bg-profile: url(/images/portfolio_background_Profile_BW.jpg );

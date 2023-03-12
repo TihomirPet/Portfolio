@@ -10,6 +10,7 @@
 --bg-body:  #EBE5DD;
 }
 :root:has(#blue:checked) {
+--bg-body:  #16001E;
 
 }
 :root:has(#gray:checked) {
@@ -84,7 +85,7 @@
   --radio-color: rgb(187, 171, 156);
 }
 .color-picker input[type="radio"]#blue {
-  --radio-color: #003534;
+  --radio-color: #210030;
 }
 .color-picker input[type="radio"]#light-blue {
   --radio-color: rgb(2, 252, 252);
@@ -243,7 +244,7 @@ body {
   overscroll-behavior: none;
   overflow-x: hidden;
   height: 100vh;
-
+cursor:url(/images/arrow.png),auto;
 }
 a {
   text-decoration: none;
