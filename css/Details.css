@@ -16,7 +16,7 @@
 }
 :root:has(#light-blue:checked) {
   /* --bg-body: #1cceca; */
-  --bg-body:#DFE9EA;
+  --bg-body: #dfe9ea;
 }
 /* .detail-card-image-gradiant {
   position: absolute;
@@ -40,13 +40,9 @@
   background-color: var(--bg-body);
   height: auto;
 }
-
-/* .details-title{
-    height: 50vh;
+#my-img {
+  filter: blur(1px);
 }
-.details-colour-palette{
-       height: 30vh; 
-} */
 .details-fonts {
   height: 50vh;
 }
@@ -59,5 +55,67 @@
 .my-img:hover img:first-child {
   display: none;
 } */
+.details-header {
+  position: relative;
+}
 
+.btn_detail {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  z-index: 5;
 
+  width: 7vw;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+
+  background: rgba(32, 32, 32, 0.8);
+  /* background: rgb(2, 252, 252, 0.8); */
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(2, 252, 252, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41); 
+box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41);
+}
+.btn_detail:hover {
+  color: rgb(255, 255, 255);
+  z-index: 5;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+
+  background: rgb(247, 105, 0, 0.9);
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(247, 105, 0, 0.3) 0%,
+      rgba(247, 105, 0, 0.2) 0.2%,
+      rgba(255, 255, 255, 0.5) 10%,
+      rgba(247, 105, 0, 0.2) 20%,
+      rgba(247, 105, 0, 0.7) 50%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(247, 105, 0, 0.2) 85%,
+      rgba(247, 105, 0, 0.02) 98%,
+      rgba(247, 105, 0, 0.3) 100%
+    )
+    1;
+}
+.detail-link {
+  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.btn_detail:hover .detail-link {
+  color: rgb(255, 255, 255);
+}

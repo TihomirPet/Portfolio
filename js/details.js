@@ -20,6 +20,8 @@ async function readGallery() {
 
   let url = element.detail.map((element) => element.imgUrl);
 console.log(url);
+
+
   let content = `  
  
  
@@ -30,12 +32,15 @@ console.log(url);
 
 
 
-      <div class="container-fluid  ps-0 pe-0">
-        <a class=" my-img" target="_blank" href="${el.href}" >
-        <img  src="/images/${el.imgUrl}" alt="Sprachen" width="100%"  />
+      <div class="container-fluid  ps-0 pe-0 details-header ">
       
-        </a>
+        <img id="my-img" src="/images/${el.imgUrl}" alt="Sprachen" width="100%" />
+     
+    
       </div>
+
+
+
 
       <div class="container-fluid mt-5 pb-5 details-title">
         <div class="row">
@@ -186,4 +191,52 @@ console.log(url);
   let parent = document.getElementById('galleryD');
   parent.insertAdjacentHTML('beforeend', content);
 }
+
+async function readDetailGallery() {
+  let { data: element, error } = await supabase
+    .from('content')
+    .select('*,detail(*)')
+    .eq('id', koopId)
+    .single();
+  if (error) {
+    throw new Error(error);
+  }
+
+  let url = element.detail.map((element) => element.imgUrl);
+  console.log(url);
+
+  let contentNav = `  
+ 
+ 
+  ${element.detail.map(
+    (el) =>
+      `
+
+              <a class="detail-link" href="${el.href}">Projekt Sehen</a>
+      
+
+
+
+      
+
+
+
+
+   
+     `
+  )}
+  
+
+  
+  `;
+
+  let parent = document.getElementById('detail_btn');
+  parent.insertAdjacentHTML('beforeend', contentNav);
+}
+
+
+
+// ##################################################################
+
 readGallery();
+readDetailGallery();
