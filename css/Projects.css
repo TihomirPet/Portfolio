@@ -1,7 +1,7 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
-  --bg-projects: url(/images/portfolio_background.jpg);
+  --bg-projects: url(/images/portfolio_background_projects.jpg);
   --bg-cart: rgba(247, 202, 3, 0.09);
   --project-card-bg-hover: rgb(0, 192, 187, 0.08);
   --projects-title-col:rgb(250, 236, 215);
@@ -9,7 +9,7 @@
 }
 
 :root:has(#blue:checked) {
-  --bg-projects: url(/images/portfolio_background_Projects_blueP.jpg);
+  --bg-projects: url(/images/portfolio_background_projects_purple.jpg);
 }
 :root:has(#black-white:checked) {
   --bg-projects: url(/images/portfolio_background_Profile_Y.jpg);
@@ -19,7 +19,7 @@
          --projects-title-col: rgb(128, 133, 133);
 }
 :root:has(#light-blue:checked) {
-  --bg-projects: url(/images/portfolio_background_Profile_lightblueW.jpg);
+  --bg-projects: url(/images/portfolio_background_projects_lightblue.jpg);
   --bg-cart: rgba(247, 105, 0, 0.1);
   --project-card-bg-hover: rgb(0, 192, 187, 0.5);
       --projects-title-col: rgb(128, 133, 133);
@@ -31,7 +31,7 @@
 
 }*/
 :root:has(#gray:checked) {
-  --bg-projects: url(/images/portfolio_background_Profile_gray.jpg);
+  --bg-projects: url(/images/portfolio_background_projects_gray.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
   --projects-title-col-bg:rgba(252, 252, 252, 0.69); 
   --project-card-bg-hover: rgb(0, 192, 187, 0.9);

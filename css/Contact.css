@@ -1,7 +1,7 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
-  --bg-contact: url(/images/portfolio_background.jpg);
+  --bg-contact: url(/images/portfolio_background_contact.jpg);
   --bg-contact-element: rgb(255, 255, 255, 0.07);
   --bg-contact-title: #00c0bb;
   --bg-contact-data: rgb(0, 192, 187, 0.1);
@@ -10,13 +10,13 @@
 }
 
 :root:has(#blue:checked) {
-  --bg-contact: url(/images/portfolio_background_Contact_blueP.jpg);
+  --bg-contact: url(/images/portfolio_background_contact_purple.jpg);
 }
 :root:has(#black-white:checked) {
   --bg-contact: url(/images/portfolio_background_Profile_Y.jpg);
 }
 :root:has(#light-blue:checked) {
-  --bg-contact: url(/images/portfolio_background_Profile_lightblueW.jpg);
+  --bg-contact: url(/images/portfolio_background_contact_lightblue.jpg);
   --bg-contact-element: rgb(201, 151, 78, 0.2);
   --bg-contact-title: rgb(201, 151, 78);
   --bg-contact-data: rgb(201, 151, 78, 0.2);
@@ -25,18 +25,19 @@
 }
 
 :root:has(#gray:checked) {
-  --bg-contact: url(/images/portfolio_background_Profile_gray.jpg);
+  --bg-contact: url(/images/portfolio_background_contact_gray.jpg);
 }
 
 .contact {
   /* background:radial-gradient(circle at 18% 53%, rgba(0, 113, 110, 1) 0%, rgba(0, 0, 1, 1) 29%, rgba(0, 0, 1, 1) 100%); */
   background-image: var(--bg-contact);
-  background-position: bottom;
+  background-position: center;
 
-  background-repeat: no-repeat;
-  background-size: cover;
+  -webkit-height: 100dvh;
   height: 100vh;
-  width: 100%;
+ 
+  background-position: center;
+  background-size: cover;
 }
 .contact-element {
   height: 6vh;

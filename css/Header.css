@@ -17,10 +17,10 @@
 
 }
 :root:has(#light-blue:checked) {
-  --bg-header: url(/images/portfolio_background_header_lightB.jpg);
+  --bg-header: url(/images/portfolio_background_header_lightblue.jpg);
   --nav-item: rgba(209, 197, 181, 0.5);
   --nav-item-hover: #1CCECA;
-  --nav-holder-background: #DFE9EA;
+  --nav-holder-background: #B6C0BF;
 }
 :root:has(#gray:checked) {
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
