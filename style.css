@@ -260,6 +260,7 @@ a {
 .wrapper {
   position: relative;
     background-color:var(--bg-body);
+    width: 100vw;
 } 
 .wrapper-details {
   position: relative;

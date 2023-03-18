@@ -1,14 +1,14 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
-  --bg-header: url(/images/portfolio_background_warm_header_Hq.jpg);
+  --bg-header: url(/images/portfolio_background_header_light.jpg);
   --nav-item: rgb(0, 192, 187, 0.09);
   --nav-item-hover: rgb(247, 105, 0);
   --nav-item-visited-color: rgb(255, 255, 255);
   --nav-holder-background: #000001;
   --nav-link-color:rgb(255, 255, 255);
-   --title-second: #1CCECA;
-   --title-thitd: #f76900;
+   --title-second: #8a9e9e;
+   --title-thitd: #887a6f;
 }
 
 :root:has(#blue:checked) {
@@ -63,6 +63,8 @@
   top: 0;
   left: 0;
   z-index: 5;
+         /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px; */
  
 }
 .title-Portfolio-second {
@@ -72,6 +74,8 @@
   z-index: 4;
    color: var(--title-second);
    /* text-shadow:0 0 0.25em hsl(0 0% 100% /0.5),0 0 0.1em var(--title-second); */
+       -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
 }
 .title-Portfolio-third {
   position: absolute;
@@ -81,6 +85,8 @@
 
      color: var(  --title-thitd);
    /* text-shadow:0 0 0.25em hsl(0 0% 100% /0.5),0 0 0.1em var(  --title-thitd); */
+          -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
 }
 .title-Name {
   width: 50%;
@@ -225,6 +231,7 @@
     top: -0.2vh;
     left: 0.2vw;
     z-index: 4;
+
   }
   .title-Portfolio-third {
     position: absolute;

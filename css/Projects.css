@@ -1,7 +1,7 @@
 :root {
   --cursorX: 50%;
   --cursorY: 50%;
-  --bg-projects: url(/images/portfolio_background_Projects.jpg);
+  --bg-projects: url(/images/portfolio_background.jpg);
   --bg-cart: rgba(247, 202, 3, 0.09);
   --project-card-bg-hover: rgb(0, 192, 187, 0.08);
   --projects-title-col:rgb(250, 236, 215);
@@ -46,7 +46,7 @@
 
   width: 100%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
