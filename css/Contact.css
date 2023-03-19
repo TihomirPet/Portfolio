@@ -7,6 +7,7 @@
   --bg-contact-data: rgb(0, 192, 187, 0.1);
   --bg-contact-data-hover: rgb(0, 192, 187, 0.1);
   --color-contact-link-hover: #00c0bb;
+  --contact-text-color:#fcfcfc;
 }
 
 :root:has(#blue:checked) {
@@ -17,11 +18,12 @@
 }
 :root:has(#light-blue:checked) {
   --bg-contact: url(/images/portfolio_background_contact_lightblue.jpg);
-  --bg-contact-element: rgb(201, 151, 78, 0.2);
-  --bg-contact-title: rgb(201, 151, 78);
-  --bg-contact-data: rgb(201, 151, 78, 0.2);
+  --bg-contact-element: rgb(193, 203, 0, 0.2);
+  --bg-contact-title: rgb(193, 203, 0,0.8);
+  --bg-contact-data: rgb(193, 203, 0, 0.2);
   --color-contact-link-hover: #fcfcfc;
   --bg-contact-data-hover: rgba(255, 255, 255, 0.1);
+   --contact-text-color:#fcfcfc;
 }
 
 :root:has(#gray:checked) {
@@ -117,7 +119,7 @@
   z-index: 4;
 }
 .contact-link {
-  color: rgb(250, 236, 215);
+  color: #fcfcfc;
   width: 100%;
 }
 .contact-data:hover .contact-link {
@@ -132,6 +134,9 @@
   background-size: 3vw;
   background-position: center;
   background-repeat: no-repeat;
+}
+.contact-text-color{
+  color: var(--contact-text-color);
 }
 /* // ... { MEDIA Query} */
 

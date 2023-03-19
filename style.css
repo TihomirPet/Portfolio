@@ -21,7 +21,7 @@
 
 --bg-body:#DFE9EA;
 --text-color:  #46474C;
-
+--second-color:#46474C;
 }
 :root:has(#black-white:checked) {
 

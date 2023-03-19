@@ -4,8 +4,9 @@
   --bg-projects: url(/images/portfolio_background_projects.jpg);
   --bg-cart: rgba(247, 202, 3, 0.09);
   --project-card-bg-hover: rgb(0, 192, 187, 0.08);
-  --projects-title-col:rgb(250, 236, 215);
-  --projects-title-col-bg:rgba(247, 202, 3, 0.09); 
+  --projects-title-col: rgb(250, 236, 215);
+  --projects-title-col-bg: rgba(247, 202, 3, 0.09);
+  --projekt-card-link: rgb(128, 133, 133);
 }
 
 :root:has(#blue:checked) {
@@ -15,15 +16,16 @@
   --bg-projects: url(/images/portfolio_background_Profile_Y.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
   --project-card-bg-hover: rgb(0, 192, 187, 0.9);
-   --projects-title-col-bg:rgba(252, 252, 252, 0.69); 
-         --projects-title-col: rgb(128, 133, 133);
+  --projects-title-col-bg: rgba(252, 252, 252, 0.69);
+  --projects-title-col: rgb(128, 133, 133);
 }
 :root:has(#light-blue:checked) {
   --bg-projects: url(/images/portfolio_background_projects_lightblue.jpg);
-  --bg-cart: rgba(247, 105, 0, 0.1);
-  --project-card-bg-hover: rgb(0, 192, 187, 0.5);
-      --projects-title-col: rgb(128, 133, 133);
-        --projects-title-col-bg:rgba(247, 105, 0, 0.1); 
+  --bg-cart: rgba(255, 255, 255, 0.5);
+  --project-card-bg-hover: rgba(255, 255, 255, 0.05);
+  --projects-title-col: rgb(128, 133, 133);
+
+  --projects-title-col-bg: rgba(255, 255, 255, 0.5);
 }
 /* :root:has(#light-blue:checked) {
 
@@ -33,10 +35,9 @@
 :root:has(#gray:checked) {
   --bg-projects: url(/images/portfolio_background_projects_gray.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
-  --projects-title-col-bg:rgba(252, 252, 252, 0.69); 
+  --projects-title-col-bg: rgba(252, 252, 252, 0.69);
   --project-card-bg-hover: rgb(0, 192, 187, 0.9);
-    --projects-title-col: rgb(128, 133, 133);
- 
+  --projects-title-col: rgb(128, 133, 133);
 }
 
 .projects {
@@ -60,7 +61,7 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 9px;
-  background: var(  --projects-title-col-bg);
+  background: var(--projects-title-col-bg);
   border-image: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.3498249299719888) 0%,
@@ -73,7 +74,6 @@
       rgba(255, 255, 255, 0.0945588235294118) 100%
     )
     1;
-  
 }
 .projects-title-first {
   position: absolute;
@@ -172,13 +172,12 @@
   opacity: 1;
 } */
 .projekt-card-link {
-  color: rgb(128, 133, 133);
+  color: var(--projekt-card-link);
 
   text-decoration: none;
 }
 
 .projekt-card-link :hover {
-  color: #00c0bb;
   color: rgb(250, 236, 215);
   text-decoration: none;
 }
