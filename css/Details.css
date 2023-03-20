@@ -15,7 +15,23 @@
   --second-color: #9fa0a2;
 }
 :root:has(#light-blue:checked) {
-  /* --bg-body: #1cceca; */
+
+  --bg-body: #B6BFC0;
+}
+
+/* classes */
+
+.gray {
+  --text-color: #46474c;
+  --bg-body: #ebe5dd;
+}
+.blue {
+}
+.gray {
+  --second-color: #9fa0a2;
+}
+.light-blue {
+
   --bg-body: #B6BFC0;
 }
 

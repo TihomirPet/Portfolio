@@ -31,6 +31,30 @@
   --projects-title-col: rgb(128, 133, 133);
 }
 
+
+
+.blue{
+  --bg-projects: url(/images/portfolio_background_projects_purple.jpg);
+}
+
+.light-blue{
+  --bg-projects: url(/images/portfolio_background_projects_lightblue.jpg);
+  --bg-cart: rgba(255, 255, 255, 0.5);
+  --project-card-bg-hover: rgba(255, 255, 255, 0.05);
+  --projects-title-col: rgb(128, 133, 133);
+
+  --projects-title-col-bg: rgba(255, 255, 255, 0.5);
+}
+
+.gray {
+  --bg-projects: url(/images/portfolio_background_projects_gray.jpg);
+  --bg-cart: rgba(252, 252, 252, 0.69);
+  --projects-title-col-bg: rgba(252, 252, 252, 0.69);
+  --project-card-bg-hover: rgb(136, 64, 235, 0.39);
+
+  --projects-title-col: rgb(128, 133, 133);
+}
+
 .projects {
   height: auto;
 

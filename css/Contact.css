@@ -45,6 +45,43 @@
     --contact-arrow--small: url(/images/arrow_down_small_gray.png);
 }
 
+
+
+
+
+.blue {
+  --bg-contact: url(/images/portfolio_background_contact_purple.jpg);
+}
+
+.light-blue{
+  --bg-contact: url(/images/portfolio_background_contact_lightblue.jpg);
+  --bg-contact-element: rgb(193, 203, 0, 0.2);
+  --nav-item-hover: rgb(136, 64, 235, 0.39);
+  --bg-contact-title: rgb(193, 203, 0, 0.8);
+  --bg-contact-data: rgb(193, 203, 0, 0.2);
+  --color-contact-link-hover: #fcfcfc;
+  --bg-contact-data-hover: rgba(255, 255, 255, 0.1);
+  --contact-text-color: #fcfcfc;
+  --contact-arrow: url(/images/arrow_lightblue.png);
+      --contact-arrow--small: url(/images/arrow_down_small_lightblue.png);
+}
+
+.gray {
+  --bg-contact: url(/images/portfolio_background_contact_gray.jpg);
+
+  --bg-contact-element: rgb(119, 118, 243, 0.45);
+
+  --bg-contact-title: #7776f3;
+
+  --bg-contact-data: rgb(119, 118, 243, 0.45);
+
+  --color-contact-link-hover: rgb(119, 118, 243);
+  --bg-contact-data-hover: rgba(255, 255, 255, 0.6);
+  --contact-text-color: #fcfcfc;
+  --contact-arrow: url(/images/arrow_gray.png);
+    --contact-arrow--small: url(/images/arrow_down_small_gray.png);
+}
+
 .contact {
   background-image: var(--bg-contact);
   background-position: center;

@@ -7,6 +7,8 @@ const storeTheme = (content) => {
 themes.forEach((option) => {
   option.addEventListener('click', () => {
     storeTheme(option.id);
+    // fallback for no :has() support
+    document.documentElement.className = option.id;
   });
 });
 
@@ -20,6 +22,8 @@ function setColorTheme() {
       themeVariations.checked = true;
     }
   });
+  // fallback for no :has() support
+  document.documentElement.className = activeTheme;
 }
 
 document.onload = setColorTheme();
