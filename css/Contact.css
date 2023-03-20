@@ -8,10 +8,12 @@
   --bg-contact-data-hover: rgb(0, 192, 187, 0.1);
   --color-contact-link-hover: #00c0bb;
   --contact-text-color:#fcfcfc;
+  --contact-arrow:url(/images/arrow.png);
 }
 
 :root:has(#blue:checked) {
   --bg-contact: url(/images/portfolio_background_contact_purple.jpg);
+
 }
 :root:has(#black-white:checked) {
   --bg-contact: url(/images/portfolio_background_Profile_Y.jpg);
@@ -19,15 +21,28 @@
 :root:has(#light-blue:checked) {
   --bg-contact: url(/images/portfolio_background_contact_lightblue.jpg);
   --bg-contact-element: rgb(193, 203, 0, 0.2);
+   --nav-item-hover: rgb(136, 64, 235,0.39);
   --bg-contact-title: rgb(193, 203, 0,0.8);
   --bg-contact-data: rgb(193, 203, 0, 0.2);
   --color-contact-link-hover: #fcfcfc;
   --bg-contact-data-hover: rgba(255, 255, 255, 0.1);
    --contact-text-color:#fcfcfc;
+      --contact-arrow:url(/images/arrow_lightblue.png);
 }
 
 :root:has(#gray:checked) {
   --bg-contact: url(/images/portfolio_background_contact_gray.jpg);
+
+ --bg-contact-element:   rgb(119, 118, 243,0.45);
+ 
+  --bg-contact-title:  #7776F3;
+ 
+  --bg-contact-data:  rgb(119, 118, 243,0.45);
+ 
+  --color-contact-link-hover: rgb(119, 118, 243);
+  --bg-contact-data-hover: rgba(255, 255, 255, 0.6);
+   --contact-text-color:#fcfcfc;
+      --contact-arrow:url(/images/arrow_gray.png);
 }
 
 .contact {
@@ -128,7 +143,7 @@
 }
 
 .contact-arrow {
-  background-image: url(/images/arrow.png);
+  background-image: var(--contact-arrow);
   height: 6vh;
 
   background-size: 3vw;
@@ -151,7 +166,7 @@
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .contact-arrow {
-    background-image: url(/images/arrow.png);
+    background-image: var(--contact-arrow);
     height: 6vh;
 
     background-size: 3vw;

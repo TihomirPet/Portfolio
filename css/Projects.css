@@ -36,7 +36,8 @@
   --bg-projects: url(/images/portfolio_background_projects_gray.jpg);
   --bg-cart: rgba(252, 252, 252, 0.69);
   --projects-title-col-bg: rgba(252, 252, 252, 0.69);
-  --project-card-bg-hover: rgb(0, 192, 187, 0.9);
+  --project-card-bg-hover: rgb(136, 64, 235,0.39);
+
   --projects-title-col: rgb(128, 133, 133);
 }
 
@@ -110,6 +111,7 @@
 }
 .projects-cards-row {
   gap: 1vw;
+  
 }
 .project-card {
   height: 46vh;

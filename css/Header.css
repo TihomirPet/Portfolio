@@ -19,7 +19,7 @@
   --bg-header: url(/images/portfolio_background_header_lightblue.jpg);
   --nav-item: rgb(193, 203, 0,0.3);
   --nav-item-hover: #1cceca;
-  --nav-holder-background: #b6c0bf;
+  --nav-holder-background: #B5BDBE;
     --title-second: #bfcfcf;
   --title-thitd: #b4afab;
 }
@@ -27,8 +27,8 @@
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
   --nav-item-visited-color: #46474c;
   --nav-item: rgba(255, 255, 255, 0.29);
-  --nav-holder-background: #ebe5dd;
-  --nav-item-hover: #1cceca;
+  --nav-holder-background: #EDEAE2;
+ --nav-item-hover: rgb(136, 64, 235,0.39);
   --nav-link-color: #46474c;
 }
 :root:has(#black-white:checked) {
