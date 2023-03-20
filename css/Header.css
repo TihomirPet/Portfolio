@@ -115,6 +115,7 @@
   height: 5vh;
   position: fixed;
   z-index: 6;
+  width: 100%;
 }
 .nav-holder-background {
   transition: ease-in-out;

@@ -51,7 +51,7 @@ console.log(url);
               ${el.titleD}
               </h1>
             </div>
-            <div class="col-6"></div>
+            <div class="col-md-6"></div>
           </div>
           <!-- container title end -->
           <div class="col-1 col-md-5"></div>
@@ -68,7 +68,7 @@ console.log(url);
             <div class="col-7 col-md-4 d-flex align-items-center justify-content-end">
               <h1 class="font-28-43 font-Comfortaa-regular">Farbpalette</h1>
             </div>
-            <div class="col-6"></div>
+            <div class="col-md-6"></div>
           </div>
           <!-- container title end -->
 
@@ -118,7 +118,7 @@ console.log(url);
             <div class="col-7 col-md-4 d-flex align-items-center justify-content-end pe-4 pe-md-0">
               <h1 class="font-28-43 font-Comfortaa-regular">Fonts</h1>
             </div>
-            <div class="col-6"></div>
+            <div class="col-md-6"></div>
           </div>
           <!-- container title end -->
 
