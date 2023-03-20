@@ -16,7 +16,7 @@
 }
 :root:has(#light-blue:checked) {
   /* --bg-body: #1cceca; */
-  --bg-body: #dfe9ea;
+  --bg-body: #B6BFC0;
 }
 /* .detail-card-image-gradiant {
   position: absolute;
@@ -95,7 +95,7 @@ box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41);
   border-style: solid;
   border-radius: 6px;
 
-  background: rgb(247, 105, 0, 0.9);
+  background: var(  --nav-item-hover);
 
   border-image: linear-gradient(
       180deg,
@@ -119,3 +119,92 @@ box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41);
 .btn_detail:hover .detail-link {
   color: rgb(255, 255, 255);
 }
+
+
+/* // ... { MEDIA Query} */
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .btn_detail {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  z-index: 5;
+
+  width: 15vw;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+
+  background: rgba(32, 32, 32, 0.8);
+  /* background: rgb(2, 252, 252, 0.8); */
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(2, 252, 252, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41); 
+box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41);
+}
+ 
+}
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .btn_detail {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  z-index: 5;
+
+  width: 25vw;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+
+  background: rgba(32, 32, 32, 0.8);
+  /* background: rgb(2, 252, 252, 0.8); */
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(2, 252, 252, 0.2498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+-webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41); 
+box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.41);
+}
+ 
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+}
+
+/* // `xs` returns only a ruleset and no media query */
+@media (max-width: 469.98px) {
+}
+
+

@@ -46,7 +46,7 @@ console.log(url);
         <div class="row">
           <!-- container title start -->
           <div class="container-fluid d-flex pb-4 mt-5">
-            <div class="col-4 d-flex align-items-center justify-content-end">
+            <div class="col-7 col-md-5 col-lg-4 d-flex align-items-center justify-content-end">
               <h1 class="font-28-43 font-Comfortaa-regular">
               ${el.titleD}
               </h1>
@@ -54,9 +54,9 @@ console.log(url);
             <div class="col-6"></div>
           </div>
           <!-- container title end -->
-          <div class="col-5"></div>
-          <div class="col-6 details-text mb-5">
-            <p class="font-Comfortaa-light font-16 w-75">  ${el.content}
+          <div class="col-1 col-md-5"></div>
+          <div class="col-10 col-md-6 details-text mb-md-5 p-2">
+            <p class="font-Comfortaa-light font-16 w-100">  ${el.content}
             </p>
           </div>
         </div>
@@ -65,19 +65,19 @@ console.log(url);
         <div class="row pb-5">
           <!-- container title start -->
           <div class="container-fluid d-flex">
-            <div class="col-4 d-flex align-items-center justify-content-end">
+            <div class="col-7 col-md-4 d-flex align-items-center justify-content-end">
               <h1 class="font-28-43 font-Comfortaa-regular">Farbpalette</h1>
             </div>
             <div class="col-6"></div>
           </div>
           <!-- container title end -->
 
-          <div class="col-5"></div>
-          <div class="col-6">
-            <div class="container-fluid">
+          <div class=" col-1 col-md-5"></div>
+          <div class="col-11 col-md-6">
+            <div class="container-fluid mt-5 mt-md-0">
               <div class="row">
                 <!--colour-primary start  -->
-                <div class="col-3 d-flex colour-primary">
+                <div class="col-4 col-md-3 d-flex colour-primary">
                   <div class="col colours-hex d-flex align-items-center">
                     <p class="font-Comfortaa-light font-12">${el.primary_hex}</p>
                   </div>
@@ -87,7 +87,7 @@ console.log(url);
                 </div>
                 <!--colour-primary end  -->
                 <!--colour-secondary start  -->
-                <div class="col-3 colour-secondary d-flex">
+                <div class="col-4 col-md-3 colour-secondary d-flex">
                   <div class="col colours-hex d-flex align-items-center">
                     <p class="font-Comfortaa-light font-12">${el.secondary_hex}</p>
                   </div>
@@ -97,7 +97,7 @@ console.log(url);
                 </div>
                 <!--colour-secondary end  -->
                 <!--colour-third start  -->
-                <div class="col-3 color-third d-flex">
+                <div class="col-4 col-md-3 color-third d-flex">
                   <div class="col colours-hex d-flex align-items-center">
                     <p class="font-Comfortaa-light font-12">${el.third_hex}</p>
                   </div>
@@ -112,23 +112,23 @@ console.log(url);
         </div>
       </div>
       <div class="container-fluid mt-5 details-fonts pb-5">
-        <div class="row mt-5 ">
+        <div class="row mt-md-5 ">
           <!-- container title start -->
-          <div class="container-fluid d-flex mt-5">
-            <div class="col-4 d-flex align-items-center justify-content-end">
+          <div class="container-fluid d-flex mt-md-5">
+            <div class="col-7 col-md-4 d-flex align-items-center justify-content-end pe-4 pe-md-0">
               <h1 class="font-28-43 font-Comfortaa-regular">Fonts</h1>
             </div>
             <div class="col-6"></div>
           </div>
           <!-- container title end -->
 
-          <div class="col-5"></div>
-          <div class="col-6">
+          <div class="col-1 col-md-5"></div>
+          <div class="col-10 col-md-6">
             <div class="container-fluid">
               <div class="row">
                 <!--Medium start  -->
                 <div
-                  class="col-4 d-flex flex-column align-items-start justify-content-center"
+                  class="col-md-4 d-flex flex-column align-items-start justify-content-center"
                 >
                   <div class="col-8 d-flex align-items-center">
                     <h2 class="font-Comfortaa-medium font-50-52">Aa</h2>
@@ -144,7 +144,7 @@ console.log(url);
                 <!--Medium end  -->
                 <!--regular start  -->
                 <div
-                  class="col-4 d-flex flex-column align-items-start justify-content-center"
+                  class="col-md-4 d-flex flex-column align-items-start justify-content-center"
                 >
                   <div class="col-4 d-flex align-items-center">
                     <h2 class="font-Comfortaa-medium font-28-43">Aa</h2>
@@ -158,7 +158,7 @@ console.log(url);
                 <!--regular end  -->
                 <!--light start  -->
                 <div
-                  class="col-4 d-flex flex-column align-items-start justify-content-center"
+                  class="col-md-4 d-flex flex-column align-items-start justify-content-center"
                 >
                   <div class="col-4 d-flex align-items-center">
                     <h2 class="font-Comfortaa-medium font-21-33">Aa</h2>
@@ -212,14 +212,8 @@ async function readDetailGallery() {
     (el) =>
       `
 
-              <a class="detail-link" href="${el.href}">Projekt Sehen</a>
+              <a class="detail-link" href="${el.href}">Projekt&nbspSehen</a>
       
-
-
-
-      
-
-
 
 
    

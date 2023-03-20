@@ -1,7 +1,7 @@
 let navbar =document.querySelector('.nav-holder')
 window.onscroll=()=>{
 
-    if (window.scrollY>60) {
+    if (window.scrollY>10) {
         navbar.classList.add('nav-holder-background');
      
     } else {
