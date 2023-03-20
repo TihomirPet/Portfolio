@@ -10,7 +10,11 @@
 
 :root:has(#blue:checked) {
   --bg-profile: url(    /images/portfolio_background_profile_purple.jpg);
+  --bg-profile_imgFirst: url(/images/_DSC5327_purple_first.jpg);
+    --bg-profile_imgSecond: url(/images/_DSC5327_purple.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_purple_third.jpg);
 }
+
 :root:has(#black-white:checked) {
   --bg-profile: url(/images/portfolio_background_Profile_Y.jpg );
   --bg-profile_imgFirst: url(/images/_DSC5327_white.jpg);
