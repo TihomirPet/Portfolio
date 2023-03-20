@@ -93,13 +93,13 @@
   --radio-color: rgb(187, 171, 156);
 }
 .color-picker input[type="radio"]#blue {
-  --radio-color: #7D00E9;
+  --radio-color: #460181;
 }
 .color-picker input[type="radio"]#light-blue {
   --radio-color: #67EDCA;
 }
 .color-picker input[type="radio"]#dark {
-  --radio-color: #FDBB5A;
+  --radio-color: #495759;
 }
 
 

@@ -18,22 +18,7 @@
   /* --bg-body: #1cceca; */
   --bg-body: #B6BFC0;
 }
-/* .detail-card-image-gradiant {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 20;
-  height: 115vh;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 25%,
-    rgba(255, 255, 255, 0) 34%,
-    rgba(255, 255, 255, 0) 44%,
-    rgba(255, 255, 255, 0) 54%,
-    rgba(0, 0, 1, 1) 100%
-  );
-} */
+
 
 .wrapper-details {
   position: relative;

@@ -15,9 +15,7 @@
 :root:has(#blue:checked) {
   --bg-contact: url(/images/portfolio_background_contact_purple.jpg);
 }
-:root:has(#black-white:checked) {
-  --bg-contact: url(/images/portfolio_background_Profile_Y.jpg);
-}
+
 :root:has(#light-blue:checked) {
   --bg-contact: url(/images/portfolio_background_contact_lightblue.jpg);
   --bg-contact-element: rgb(193, 203, 0, 0.2);
