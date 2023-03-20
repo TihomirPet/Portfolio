@@ -212,7 +212,7 @@ async function readDetailGallery() {
     (el) =>
       `
 
-              <a class="detail-link" href="${el.href}">Projekt&nbspSehen</a>
+              <a class="detail-link" target="_blank" href="${el.href}">Projekt&nbspSehen</a>
       
 
 

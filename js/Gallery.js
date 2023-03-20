@@ -20,7 +20,7 @@ async function detailGallery() {
 
        <div class="col-12 col-md-3 project-card">
            <form method="get" action="/pages/detail.html" >
-             <button class="projekt-card-link btn"  type="submit" >
+             <button class="projekt-card-link btn"  type="submit" target="_blank">
                <div class="row">
                   <div class="col-12 project-card-title d-flex align-items-center ps-4">
                  

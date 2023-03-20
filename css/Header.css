@@ -9,59 +9,56 @@
   --nav-link-color: rgb(255, 255, 255);
   --title-second: #8a9e9e;
   --title-thitd: #887a6f;
+  --bg-header-mobile: url(/images/portfolio_background_header_light_mobile.jpg);
 }
 
-.blue{
+.blue {
   --bg-header: url(/images/portfolio_background_header_blueP.jpg);
   --nav-holder-background: #16001e;
+  --bg-header-mobile: url(/images/portfolio_background_header_blueP_mobile.jpg);
 }
-.light-blue{
+.light-blue {
   --bg-header: url(/images/portfolio_background_header_lightblue.jpg);
-  --nav-item: rgb(193, 203, 0,0.3);
+  --nav-item: rgb(193, 203, 0, 0.3);
   --nav-item-hover: #1cceca;
-  --nav-holder-background: #B5BDBE;
-    --title-second: #bfcfcf;
+  --nav-holder-background: #b5bdbe;
+  --title-second: #bfcfcf;
   --title-thitd: #b4afab;
+  --bg-header-mobile: url(/images/portfolio_background_header_lightblue_mobile.jpg);
 }
 .gray {
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
   --nav-item-visited-color: #46474c;
   --nav-item: rgba(255, 255, 255, 0.29);
-  --nav-holder-background: #EDEAE2;
- --nav-item-hover: rgb(136, 64, 235,0.39);
+  --nav-holder-background: #edeae2;
+  --nav-item-hover: rgb(136, 64, 235, 0.39);
   --nav-link-color: #46474c;
+  --bg-header-mobile: url(/images/portfolio_background_header_warm_mobile.jpg);
 }
-
-
-
 
 :root:has(#blue:checked) {
   --bg-header: url(/images/portfolio_background_header_blueP.jpg);
   --nav-holder-background: #16001e;
+  --bg-header-mobile: url(/images/portfolio_background_header_blueP_mobile.jpg);
 }
 :root:has(#light-blue:checked) {
   --bg-header: url(/images/portfolio_background_header_lightblue.jpg);
-  --nav-item: rgb(193, 203, 0,0.3);
+  --nav-item: rgb(193, 203, 0, 0.3);
   --nav-item-hover: #1cceca;
-  --nav-holder-background: #B5BDBE;
-    --title-second: #bfcfcf;
+  --nav-holder-background: #b5bdbe;
+  --title-second: #bfcfcf;
   --title-thitd: #b4afab;
+  --bg-header-mobile: url(/images/portfolio_background_header_lightblue_mobile.jpg);
 }
 :root:has(#gray:checked) {
   --bg-header: url(/images/portfolio_background_header_warm.jpg);
   --nav-item-visited-color: #46474c;
   --nav-item: rgba(255, 255, 255, 0.29);
-  --nav-holder-background: #EDEAE2;
- --nav-item-hover: rgb(136, 64, 235,0.39);
+  --nav-holder-background: #edeae2;
+  --nav-item-hover: rgb(136, 64, 235, 0.39);
   --nav-link-color: #46474c;
+  --bg-header-mobile: url(/images/portfolio_background_header_warm_mobile.jpg);
 }
-
-
-
-
-
-
-
 
 .header {
   background-image: var(--bg-header);
@@ -297,11 +294,11 @@
       border-color 0.15s ease-in-out;
   }
   .header {
-    background-image:var( --bg-header);
+    background-image: var(--bg-header-mobile);
     -webkit-height: 100dvh;
     height: 100vh;
 
-     background-position: -121vw 7vh;
+    background-position: center;
     background-size: cover;
   }
 }
