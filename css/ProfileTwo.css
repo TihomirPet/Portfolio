@@ -1,0 +1,211 @@
+
+:root {
+  --cursorX: 50%;
+  --cursorY: 50%;
+  --bg-profile: url(/images/portfolio_background.jpg);
+  --bg-profile_imgFirst: url(/images/_DSC5327.jpg);
+    --bg-profile_imgSecond: url(/images/_DSC5327_blue.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ.jpg);
+}
+
+:root:has(#blue:checked) {
+  --bg-profile: url(    /images/portfolio_background_profile_purple.jpg);
+  --bg-profile_imgFirst: url(/images/_DSC5327_purple_first.jpg);
+    --bg-profile_imgSecond: url(/images/_DSC5327_purple.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_purple_third.jpg);
+}
+
+
+:root:has(#light-blue:checked) {
+
+  --bg-profile: url(/images/portfolio_background_Profile_lightblueW.jpg);
+    --bg-profile_imgFirst: url(/images/_DSC5327_white_lightblue.jpg);
+  --bg-profile_imgSecond: url(/images/_DSC5327_lightblue.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ_lightblue.jpg);
+
+}
+:root:has(#gray:checked) {
+  --bg-profile: url(/images/portfolio_background_Profile_gray.jpg );
+  /* --bg-profile_imgFirst: url(/images/_DSC5327_light.jpg); */
+    --bg-profile_imgSecond: url(/images/_DSC5327_blue_light.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ_light.jpg);
+}
+
+
+
+
+.blue{
+  --bg-profile: url(    /images/portfolio_background_profile_purple.jpg);
+  --bg-profile_imgFirst: url(/images/_DSC5327_purple_first.jpg);
+    --bg-profile_imgSecond: url(/images/_DSC5327_purple.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_purple_third.jpg);
+}
+
+
+.light-blue {
+
+  --bg-profile: url(/images/portfolio_background_Profile_lightblueW.jpg);
+    --bg-profile_imgFirst: url(/images/_DSC5327_white_lightblue.jpg);
+  --bg-profile_imgSecond: url(/images/_DSC5327_lightblue.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ_lightblue.jpg);
+
+}
+.gray{
+  --bg-profile: url(/images/portfolio_background_Profile_gray.jpg );
+  /* --bg-profile_imgFirst: url(/images/_DSC5327_light.jpg); */
+    --bg-profile_imgSecond: url(/images/_DSC5327_blue_light.jpg);
+    --bg-profile_imgThird: url(/images/_DSC5327_negativ_light.jpg);
+}
+
+
+
+
+.profile-two {
+position: relative;
+  height: 100vh;
+
+  background-image:var(--bg-profile);
+  -webkit-height: 100dvh;
+  height: 100vh;
+ 
+  background-position: center;
+  background-size: cover;
+
+}
+
+.img-one {
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+ background-image: linear-gradient(
+      180deg,
+      /* rgba(255, 255, 255, 0.04) 10%, */ rgb(193, 203, 0, 0.2) 30%,
+      rgb(193, 203, 0, 0.3) 45%,
+      rgb(238, 128, 87) 95%,
+      rgb(238, 128, 87) 100%
+    ),
+    url(/images/_DSC5327.png);
+  height: 60vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+.img_two {
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+ background-image: linear-gradient(
+      180deg,
+      /* rgba(255, 255, 255, 0.04) 10%, */ rgb(125, 0, 233, 0.2) 30%,
+      rgb(125, 0, 233, 0.3) 45%,
+      rgb(0, 252, 229) 95%,
+      rgb(0, 252, 229) 100%
+    ),
+    url(/images/_DSC5327.png);
+  height: 60vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+.img_three {
+  position: absolute;
+  top: 20vh;
+  left: 65vw;
+  background-image: linear-gradient(
+      180deg,
+      /* rgba(255, 255, 255, 0.04) 10%, */ rgb(193, 203, 0, 0.2) 30%,
+      rgb(193, 203, 0, 0.3) 45%,
+      rgb(238, 128, 87) 95%,
+      rgb(238, 128, 87) 100%
+    ),
+     url(/images/_DSC5327.png);
+  height: 60vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+.img_four {
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  background-image: linear-gradient(
+      180deg,
+      /* rgba(255, 255, 255, 0.04) 10%, */ rgb(125, 0, 233, 0.2) 30%,
+      rgb(125, 0, 233, 0.3) 45%,
+      rgb(0, 252, 229) 95%,
+      rgb(0, 252, 229) 100%
+    ),
+    url(/images/_DSC5327.png);
+  height: 60vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+
+  border-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3498249299719888) 0%,
+      rgba(255, 255, 255, 0.020133053221288555) 0.2%,
+      rgba(255, 255, 255, 0.6391806722689075) 10%,
+      rgba(255, 255, 255, 0.20220588235294112) 20%,
+      rgba(255, 255, 255, 0.0845588235294118) 76%,
+      rgba(255, 255, 255, 0.2) 85%,
+      rgba(255, 255, 255, 0.022934173669467817) 92%,
+      rgba(255, 255, 255, 0.0945588235294118) 100%
+    )
+    1;
+}
+
+.profile-text {
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+  height: 50vh;
+  width: 30vw;
+}
